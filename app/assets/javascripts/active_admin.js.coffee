@@ -1,0 +1,10 @@
+#= require active_admin/base
+#= require tether
+#= require bootstrap
+#= require modals
+#= require ckeditor/init
+#= require ckeditor/config
+#= require ckeditor/ckeditor
+#= require admin/input/file_input
+#= require admin/author
+#= require admin/post

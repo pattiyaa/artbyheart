@@ -1,0 +1,22 @@
+<div class="card-deck-wrapper">
+  <div class="card-deck">
+ 
+    <div class="card">
+      <img class="card-img-top" src=<%= @author.avatarimg%> alt="Card image cap" style="width:100%">
+      <div class="card-block">
+        <h4 class="card-title"><%= @author.name%></h4>
+        <p class="card-text"><%= @author.title%></p>
+      </div>
+      <div class="card-block pull-right">
+        
+        <%= link_to edit_admin_author_path(@author) do %>
+        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+        <% end %>
+        <%= link_to admin_author_path(@author), method: :destroy, data: { confirm: 'Are you sure?' }  do %>
+        <i class="fa fa fa-eraser" aria-hidden="true"></i>
+  <% end %>
+      </div>
+    </div>
+
+</div>
+</div>

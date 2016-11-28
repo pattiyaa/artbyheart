@@ -1,0 +1,32 @@
+.uni-blog-article {
+ 	width: 100%;
+ }
+.uni-blog-article header{
+	background-color: #ffca28;
+
+}
+.uni-blog-article header .wrapper{
+	padding:20px  50px 0 50px;
+}
+.uni-blog-article section{
+	padding: 50px
+}
+.uni-blog-article section{
+
+	text-align: justify;
+}
+.uni-blog-article .img.cover {
+    height:450px;
+    background-color:#FFFFFF;
+    margin-top:10px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle; 
+}
+.uni-blog-article  .img.cover img{
+    width:100%;
+    display: block;
+}
+form fieldset > ol > li.boolean {
+    padding: 22px 0;
+}

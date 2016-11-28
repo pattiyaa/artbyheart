@@ -1,0 +1,49 @@
+<div class="card-columns">
+	<div class="card-deck-wrapper">
+		<div class="card-deck">
+			<% @posts.each do |post| %>
+			<div class="card" style="margin-bottom:10px">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="pull-right">
+							<%= link_to edit_admin_post_path(post) do %>
+							<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+							<% end %>
+							<%= link_to admin_post_path(post), method: :delete, data: { confirm: 'Are you sure?' }  do %>
+							<i class="fa fa fa-eraser" aria-hidden="true"></i>
+							<% end %>
+						</div>
+					</div>
+				</div>
+				<%= link_to admin_post_path(post) do%>
+				<img class="card-img-top" src=<%= post.cover_img%>  style="width:100%">
+				<% end %>
+				<div class="card-block">
+					<%= link_to admin_post_path(post) do%> 
+					<h4 class="card-title"><%= post.title%></h4>
+					<%end%>
+					<p class="card-text"><%= post.subtitle%></p>
+				</div>
+				<div class="card-block ">
+					<div class="row">
+						<div class="col-xs-12">
+							<p class="card-text pull-right"><small class="text-muted"><%= getLastUpdate(post.updated_at)%></small></p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+							<span><%= PostCategory.find(post.post_category_id).name %></span>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-xs-12">
+							<%= render partial: "tags",  :locals => {:tags => post.tags} %>
+						</div>
+					</div>
+				</div>
+			</div>
+			<%end%>
+		</div>
+	</div>
+</div>

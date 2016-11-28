@@ -1,0 +1,15 @@
+<div class="modal" id="mainModal" tabindex="-1" role="dialog" aria-labelledby="mainModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times-circle" style="font-size:36px"></i></button>
+        <h4 class="modal-title" id="mainModalLabel">
+          <%= yield :title if content_for? :title %>&nbsp;
+        </h4>
+      </div>
+      <div class="modal-body">
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+</div> 

@@ -1,0 +1,36 @@
+<article class="uni-blog-article">
+  <!-- article header -->
+
+  <!-- cover image -->
+
+  <% unless @post.cover_img.blank?%>
+
+  <div class="img cover">
+   <%=cl_image_tag(@post.cover_img,:class=>"img-responsive center-block" )%>
+ </div>
+ <%end%>
+ <header>
+  <div class="wrapper"> 
+    <h2><%= @post.title %></h2>
+    <p>
+      <%= @post.subtitle %>
+    </p>
+    <div class="row">
+      <div class="col-xs-6">
+       <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+       <span><%= PostCategory.find(@post.post_category_id).name %></span>
+      
+       <%= render partial: "tags",  :locals => {:tags => @post.tags} %>
+      </div>
+      <div class="col-xs-6">
+        <p class="pull-right"><%= getLastUpdate(@post.updated_at)%></p>
+      </div>
+  </div>
+</div> 
+</header>
+
+
+<section >
+  <%= @post.content.html_safe %>
+</section>
+</article>

@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: hkjfomy96
+  api_key: '178961294596355'
+  api_secret: NClL35aexhvOdW-Q45W2-R-VDQ8
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: hkjfomy96
+  api_key: '178961294596355'
+  api_secret: NClL35aexhvOdW-Q45W2-R-VDQ8
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: hkjfomy96
+  api_key: '178961294596355'
+  api_secret: NClL35aexhvOdW-Q45W2-R-VDQ8
+  enhance_image_tag: true
+  static_image_support: false
