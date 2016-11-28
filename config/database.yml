@@ -78,8 +78,17 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+# production:
+#   <<: *default
+#   database: artbyheart_production
+#   username: artbyheart
+#   password: <%= ENV['ARTBYHEART_DATABASE_PASSWORD'] %>
 production:
-  <<: *default
-  database: artbyheart_production
-  username: artbyheart
-  password: <%= ENV['ARTBYHEART_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: utf8
+  database: d4peq4b1l4755u
+  pool: 5432
+  username: bagrdefdbjfoab    #-> *** data from heroku's postgres user details page
+  password: D3ZqVknhzHzIzH1LF4rvqOD73n
+  host: ec2-54-227-250-80.compute-1.amazonaws.com
+
