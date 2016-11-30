@@ -12,6 +12,12 @@ gem 'activeadmin', '~> 1.0.0.pre4'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 #for flexible authentication
 gem 'devise'
+# for facebook and google authen
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'oauth2'
+gem 'omniauth-google-oauth2'
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -32,6 +38,7 @@ gem 'coffee-rails', '~> 4.2'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'jquery-ui-rails','~> 4.2.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

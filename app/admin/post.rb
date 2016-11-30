@@ -103,7 +103,6 @@ form do |f|
         f.collection_select :author_id, Author.all, :id, :name, { include_blank: 'Create new' }
       end
       f.input :tags, as: :check_boxes, :collection => Tag.all
-      f.a link_to 'New tag',new_tag_path ,data: { modal: true},:redirectturl=> edit_admin_post_path(params[:id])
       f.input :isHighlight , label: 'Show as highlight topic'
       f.input :isToplist, label: 'Show in top 10 list'
       f.input :active, label: 'Active'

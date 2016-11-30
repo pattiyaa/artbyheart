@@ -21,9 +21,18 @@ default: &default
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
+# development:
+#   <<: *default
+#   database: artbyheart_development
 development:
-  <<: *default
-  database: artbyheart_development
+  adapter: postgresql
+  encoding: utf8
+  database: d4peq4b1l4755u
+  pool: 5432
+  username: bagrdefdbjfoab    #-> *** data from heroku's postgres user details page
+  password: D3ZqVknhzHzIzH1LF4rvqOD73n
+  host: ec2-54-227-250-80.compute-1.amazonaws.com
+
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.

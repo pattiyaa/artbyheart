@@ -12,7 +12,7 @@ Devise.setup do |config|
   # Configure the e-mail address which will be shown in Devise::Mailer,
   # note that it will be overwritten if you use your own mailer class
   # with default "from" parameter.
-  config.mailer_sender = 'please-change-me-at-config-initializers-devise@example.com'
+  config.mailer_sender = 'pattiyaa@gmail.com'
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
@@ -271,4 +271,9 @@ Devise.setup do |config|
   # When using OmniAuth, Devise cannot automatically set OmniAuth path,
   # so you need to do it manually. For the users scope, it would be:
   # config.omniauth_path_prefix = '/my_engine/users/auth'
+ 
+
+  config.omniauth :facebook, "1143764885704470", "194e50aaf0c73af4270b489c306f3f05", scope: 'email', info_fields: 'email, name',:display =>'popup'
+
+  config.omniauth :google_oauth2,  "685520205473-hjv99hbu15pt08btl83dl7usgipqs1pn.apps.googleusercontent.com", "8OdA2dylgPaiI6HTX0unvx_f",:display =>'popup'
 end

@@ -81,12 +81,7 @@ form do |f|
     f.inputs 'Details' do
       f.input :name
       f.input :title
-      
-      f.li do
-        f.label 'Photo'
-
-        f.input :avatarimg ,:image_preview => true
-      end
+      f.input :avatarimg ,:image_preview => true,label: 'Avatar photo'
       f.li do
         f.label 'Login user'
         f.collection_select :login, User.all, :id, :email 

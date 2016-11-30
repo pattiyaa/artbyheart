@@ -2,8 +2,9 @@
 	<div class="card-deck-wrapper">
 		<div class="card-deck">
 			<% @ckeditor_pictures.each do |pic| %>
-<div class="row ">
-				    <div class="col-xs-12">
+			<div class="card card-inverse" style="margin-bottom:10px">
+				<div class="row ">
+					<div class="col-xs-12">
 						<div class="pull-left" style="margin-left: 4px">
 
 							<%= check_box("collection_selection","",  { class: 'collection_selection' }, pic.id)%>
@@ -19,14 +20,11 @@
 						</div>
 					</div>
 				</div>
-			<div class="card card-inverse" style="margin-bottom:10px">
+
 				
 				<img class="card-img" src=<%= pic.data%>  style="width:100%">
-				<div class="card-img-overlay">
-					
-					<p class="card-text"><%= pic.created_at.strftime("Uploaded on %m/%d/%Y at %I:%M%p")%></p>
-				</div>
 				<div class="card-block">
+					<p class="card-text"><small class="text-muted"><%= pic.created_at.strftime("Uploaded on %m/%d/%Y at %I:%M%p")%></small></p>
 				</div>
 				
 

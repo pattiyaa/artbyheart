@@ -1,0 +1,18 @@
+<h3><%= 'Sign up / Log in with'%></h3>
+<br/>
+<div class="row">
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+		<div class="input-group input-group-google-plus">
+			<span class="input-group-addon"><i class="fa fa-google-plus"></i></span>
+			<%= link_to_login_with 'Google+', 'Google', user_google_oauth2_omniauth_authorize_path, { width: '460', height: '460' }%>
+		</div>
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+		<div class="input-group input-group-facebook">
+			<span class="input-group-addon"><i class="fa fa-facebook"></i></span>
+			<%= link_to_login_with 'Facebook','Facebook', user_facebook_omniauth_authorize_path, { width: '460', height: '460' }%>
+		</div>
+	</div>
+</div>
+<hr/>
+<%= link_to 'Sign in with email', new_user_session_path,data: { modal: true} %>

@@ -14,7 +14,8 @@ class FileInput < Formtastic::Inputs::FileInput
   end
 
   def image_preview?
-    options[:image_preview] && @object.send(method).present?
+    # options[:image_preview] && @object.send(method).present?
+    options[:image_preview]
   end
 
   def image_preview_html

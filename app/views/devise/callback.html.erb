@@ -1,0 +1,6 @@
+<span>callback</spam>
+<%debugger%>
+<%= javascript_tag do %>
+  window.opener.location = '<%= @page %>';
+  window.close();
+<% end %>

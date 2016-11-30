@@ -1,0 +1,21 @@
+<% content_for :title, "Log in" %>
+<div class="center">
+<%= simple_form_for(resource, as: resource_name,url: session_path(resource_name), :html=> { class: 'signin' }) do |f| %>
+ <div class="input-group">
+    <span class="input-group-addon"><i class="fa fa-user fa-2"></i></span>
+    <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+  </div>
+  
+  <div class="input-group">
+    <span class="input-group-addon"><i class="fa fa-lock fa-2"></i></span>
+    <input id="password" type="password" class="form-control" name="password" placeholder="Password">
+  </div>
+  <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
+   
+<%= f.button :submit, "Log in" , class: 'btn-default'%>
+<% end %>
+
+<%= render "devise/shared/links" %> 
+<hr/>
+<%= render "devise/sessions/option" %>
+</div>

@@ -12,5 +12,11 @@
   <body>
     <%= yield %>
     <div id="modal-holder"></div> 
+    <%= javascript_tag do %>
+      if (window.opener != null){
+      window.opener.location = '';
+      }
+      window.close();
+    <% end %>
   </body>
 </html>
