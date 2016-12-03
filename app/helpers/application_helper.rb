@@ -1,13 +1,18 @@
 module ApplicationHelper
-	  def link_to_login_with(text, provider, url, html_options = {})
+	def link_to_login_with(text, provider, url, html_options = {})
     add_default_class(html_options)
     convert_popup_attributes(html_options)
 
     link_to t(text, provider: provider), url, html_options
   end
+  def nav_link(link_text, link_path)
+  class_name = current_page?(link_path) ? 'active' : ''
 
+  content_tag(:li, :class => class_name) do
+    link_to link_text, link_path
+  end
+ end
   private
-
   def add_default_class(html_options)
     default_class = "js-popup"
 

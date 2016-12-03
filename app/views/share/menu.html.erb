@@ -1,0 +1,13 @@
+<nav id="nav">
+  <ul>
+    <%= nav_link t(:menu_home),"/" %>
+    <%= nav_link t(:menu_article),posts_path(:cat => 1) %>
+    <%= nav_link t(:menu_howto),posts_path(:cat => 2) %>
+    <%= nav_link t(:menu_activities),posts_path(:cat => 3) %>
+    <%= nav_link t(:menu_schedual),"#" %>
+    <%= nav_link t(:menu_therapist),"#Therapist" %>
+    <%= nav_link t(:menu_products),"#" %>
+    <%= nav_link t(:menu_aboutus),"#" %>
+    <li><%= render template: "/share/signin"%></li>
+  </ul>
+</nav>

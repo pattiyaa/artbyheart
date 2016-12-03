@@ -11,14 +11,16 @@
 // about supported directives.
 //
 //= require jquery
+//= require jquery.ui.all
 //= require turbolinks
 //= require ckeditor/init
 //= require ckeditor/config
 //= require ckeditor/ckeditor
+//= require_tree .
 //= require cloudinary
 //= require cloudinary/processing 
-//= require_tree .
 //= require tether
 //= require bootstrap
 //= require bootstrap-sprockets
 //= require modals
+//= require main

@@ -21,6 +21,15 @@
 
 en:
   hello: "Hello world"
+  menu_home: "Home"
+  menu_article: "Articles"
+  menu_howto: "How To"
+  menu_activities: "Activities"
+  menu_therapist: "Therapists"
+  menu_schedual: "Schedual"
+  menu_products: "Products"
+  menu_aboutus: "About Us"
+  ntf_noposts: "No articles were added yet."
   active_admin:
     dashboard: Dashboard
     dashboard_welcome:

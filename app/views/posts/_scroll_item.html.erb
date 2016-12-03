@@ -1,0 +1,13 @@
+<article>
+<a href="#" class="image featured"><img src=<%= post.cover_img%> /></a>
+	<header>
+		<h3><a href="#"><%= post.title%></a></h3>
+	</header>
+	
+	<% if post.subtitle.size <= 150  %>
+		<p><%=post.subtitle%></p>
+	<%else%>
+		<p><%= '%1.150s...'%post.subtitle %></p>
+	<%end%>
+	<p class="pull-right"><small class="text-muted"><%= getLastUpdate(post.updated_at)%></small></p>
+</article>

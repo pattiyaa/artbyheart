@@ -1,0 +1,13 @@
+<section class="carousel">
+	<% if posts.blank? %>
+		<p>No articles were added yet.</p>
+	<% end %>
+
+	<div class="reel card-deck-wrapper ">
+	<div class="card-deck">
+		<% posts.each do |post| %>
+			<%= render 'posts/scroll_item', post: post %>
+		<%end%>
+	</div>
+	</div>
+</section>

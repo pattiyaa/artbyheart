@@ -1,0 +1,25 @@
+	<!-- Main -->
+	<div class="wrapper style2">
+
+		<article id="main" class="container special">
+			<a href="#" class="image featured"><img src=<%= post.cover_img%>  /></a>
+			<header>
+				<h2><a href="#"><%= post.title%></a></h2>
+				<p>
+					<%=post.subtitle%>
+				</p>
+			</header>
+			<p>
+				<% content=strip_tags(post.content)%>
+				<% if content.size <= 800%>
+					<%=content.html_safe %>
+				<%else%>
+					<p><%= '%1.800s...'%content.html_safe %></p>
+				<%end%>
+			</p>
+
+			<a href="#" class="button">Continue Reading</a>
+
+		</article>
+
+	</div>
