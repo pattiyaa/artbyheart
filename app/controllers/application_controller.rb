@@ -32,4 +32,16 @@ class ApplicationController < ActionController::Base
   		end
   		return 'Last updated ' + lastupdated +' ago'
   	end
+    def split_base64(uri_str)
+      if uri_str.match(%r{^data:(.*?);(.*?),(.*)$})
+        uri = Hash.new
+        uri[:type] = $1 # "image/gif"
+        uri[:encoder] = $2 # "base64"
+        uri[:data] = $3 # data string
+        uri[:extension] = $1.split('/')[1] # "gif"
+        return uri
+      else
+        return nil
+      end
+    end
 end

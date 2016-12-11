@@ -1,0 +1,16 @@
+<div class="wrap_head">
+  <h2><%=author.name%></h2>
+</div>
+<div class="wrap_content row">
+  <div class="col-xs-12 col-sm-6 col-lg-8">
+    <div>
+      <h3><%=author.title%></h3>
+      <p><%=author.subtitle%></p>
+    </div>
+    <h3><%= t(:profile)%></h3>
+    <p><%=  author.profile.present? ? author.profile.html_safe : ''%></p>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-lg-4">
+    <div class="image fit"><img class="img-border-r8" src=<%=author.avatarimg.url%> ></div>
+  </div>
+</div>

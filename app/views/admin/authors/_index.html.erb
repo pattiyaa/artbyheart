@@ -1,10 +1,27 @@
+<% @authors.each do |author| %>
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-4">
+  
+    <% if author.avatarimg.present? %>
+      <img class="img-thumbnail" src=<%= author.avatarimg.url%> />
+      <%end%>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-8">
+    <div><h4><%= author.name%></h4></div>
+    <div><p ><%= author.title%></p></div>
+     <div><p ><%= author.subtitle%></p></div>
+  </div>
+</div>
+<%end%>
 <div class="card-columns">
 <div class="card-deck-wrapper">
   <div class="card-deck">
   <% @authors.each do |author| %>
    
     <div class="card">
-      <img class="card-img-top" src=<%= author.avatarimg%> alt="Card image cap" style="width:100%">
+      <% if author.avatarimg.present? %>
+      <img class="card-img-top" src=<%= author.avatarimg.url%> style="width:100%">
+      <%end%>
       <div class="card-block">
         <h4 class="card-title"><%= author.name%></h4>
         <p class="card-text"><%= author.title%></p>

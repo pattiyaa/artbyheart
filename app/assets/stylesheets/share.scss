@@ -1,0 +1,203 @@
+/*----------------- body ---------------*/
+body div.content{
+    padding: 10px 10px 0 10px;
+}
+/*---------------- link ----------------*/
+a.btnaction{
+    text-decoration: none;
+    color: inherit;
+}
+a.btnaction:hover{
+    color: grey;
+}
+/*---------------card----------*/
+.card-img-overlay:hover{
+  background-color: black;
+  opacity: 0.8;
+  color: #ECF0F1;
+
+}
+
+/*---------------File upload----------*/
+#drop_zone {
+display:block;
+border: 2px dashed #bbb;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+padding: 25px;
+text-align: center;
+font: 20pt bold 'Vollkorn';
+color: #bbb;
+width:100%;
+}
+div.thumb {
+display:block;
+float:left;
+overflow: hidden;
+position: relative;
+padding: 10px;
+}
+div.thumb a{
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+color:#db3236;
+
+}
+div.thumb img{
+height: 75px;
+border: 1px solid #000;
+margin: 10px 5px 0 0;
+}
+
+div.image-preview img.image-preview{
+    height: 275px;
+    padding: 8px;
+    background-color: #ffffff;
+}
+/*---------------Form input----------*/
+form div.fieldright{
+width: calc(80% - 22px);
+/*border: 1px solid #c9d0d6;
+border-radius: 3px;*/
+border :none;
+font-size: 0.95em;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+outline: none;
+padding: 8px 10px 7px;
+overflow:hidden;
+}
+li.ckeditor div{
+    border:none;
+    box-shadow: none;
+}
+li.ckeditor div div.cke_inner{
+overflow:hidden;
+border: 1px solid #c9d0d6;
+
+}
+/*-------------------show------------------------*/
+.image {
+position: relative;
+display: inline-block;
+border: 0;
+outline: 0;
+}
+
+.image img {
+display: block;
+width: 100%;
+}
+.image.fit {
+display: block;
+width: 100%;
+}
+a.image.fit {
+cursor: hand;
+}
+.img-border-r8 {
+    border-radius: 8%;
+}
+.image.fit.profile{
+    padding: 0 0 12px 0;
+}
+.image.fit.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/*-------------------show Article------------------------*/
+.uni-blog-article {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.uni-blog-article header{
+	background-color: #ffca28;
+    margin-bottom: 0;
+
+}
+.uni-blog-article header div.content{
+	padding:20px  50px 0 50px;
+}
+
+.uni-blog-article section{
+	padding: 50px;
+    background-color:#FFFFFF;
+}
+.uni-blog-article section{
+
+	text-align: justify;
+}
+.uni-blog-article .img.cover {
+    height:450px;
+    background-color:#FFFFFF;
+    /*margin-top:10px;*/
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle; 
+}
+.uni-blog-article  .img.cover img{
+    width:100%;
+    display: block;
+}
+/*-------------- Show Therapist ----------------*/
+#Therapist .card{
+    border: none;
+}
+.wrap_head{
+    padding: 0 3em;
+
+}
+.wrap_content{
+    padding: 0 3em;
+}
+/*-----------------------Toggle switch---------------*/
+/* The switch - the box around the slider */
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}

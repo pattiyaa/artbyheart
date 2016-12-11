@@ -21,6 +21,7 @@
 
 en:
   hello: "Hello world"
+  hi: "Hi "
   menu_home: "Home"
   menu_article: "Articles"
   menu_howto: "How To"
@@ -30,8 +31,18 @@ en:
   menu_products: "Products"
   menu_aboutus: "About Us"
   ntf_noposts: "No articles were added yet."
+  ntf_dropfile: "Drop files here"
+  ntf_projects: "No projects were added yet."
+  confirm_delete: "Are you sure you want to delete this?"
+  msg_select: "Please select"
+  profile: "Profile"
+  portfolio: "Portfolio"
+  article_continue: "Continue reading..."
+
   active_admin:
     dashboard: Dashboard
+    post: Posts
+    therapist: Therapists
     dashboard_welcome:
       welcome: "Welcome to Active Admin. This is the default dashboard page."
       call_to_action: "To add dashboard sections, checkout 'app/admin/dashboard.rb'"

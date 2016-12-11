@@ -1,6 +1,5 @@
 <% if user_signed_in? && !current_user.blank? %>
-
-Hi <%= current_user.name %>
+ <%= t(:hi)%>	<%=  current_user.name %>
 <%= link_to 'Sign out', destroy_user_session_path, :method => :destroy %>
 <% else %>
 <%= link_to  new_user_session_path ,data: { modal: true} do%>

@@ -5,6 +5,7 @@ class Post < ApplicationRecord
   #        :recoverable, :rememberable, :trackable, :validatable
   mount_uploader :cover_img, CloudinaryImageUploader
   has_and_belongs_to_many :tags
+  accepts_nested_attributes_for :tags, :allow_destroy => true
   has_one :post_category
   def email_required? 
   	false 

@@ -1,0 +1,14 @@
+<% content_for :title, @project.title %>
+<div class="row">
+	<div class="col-xs-12 col-sm-8 col-md-8">
+		<% @project.pictures.each do |p|%>
+		<div class="image fit">
+			
+		        <%= image_tag p.url, class: "imp-thump"%>
+		</div>
+		<%end%>
+	</div>
+	<div class="col-xs-12 col-sm-4 col-md-4">
+		<%= render "therapists/miniprofile", :author => Author.find(@project.author_id)%>
+	</div>
+</div>

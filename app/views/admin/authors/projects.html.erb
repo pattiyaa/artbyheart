@@ -1,0 +1,22 @@
+
+<% if @projects.blank? %>
+<p><%=  t(:ntf_projects)%></p>
+<% else %>
+<% @projects.each do |project| %>
+<div class="card">
+	<div class="card-block">
+	<h4 class="card-title"><%=project.title%></h4>
+		<h6 class="card-subtitle text-muted"><%=project.description%></h6>
+	</div>
+	<img src=<%= project.pictures.first.url%> alt="Card image"  style="width:100%">
+	<div class="card-block pull-right">
+		<%= link_to edit_admin_project_path(project) do %>
+        	<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+        <% end %>
+        <%= link_to admin_project_path(project), method: :destroy, data: { confirm: 'Are you sure?' }  do %>
+        	<i class="fa fa fa-eraser" aria-hidden="true"></i>
+  		<% end %>
+	</div>
+</div>
+<%end%>
+<% end %>

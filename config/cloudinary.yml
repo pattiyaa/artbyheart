@@ -9,7 +9,7 @@ production:
   api_key: '938161817367682'
   api_secret: qhLdU8Q52d11j5ZcLYeHnBmuPZ0
   enhance_image_tag: true
-  static_image_support: true
+  static_image_support: false
 test:
   cloud_name: hos3ptowg
   api_key: '938161817367682'

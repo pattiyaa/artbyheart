@@ -1,22 +1,26 @@
-<div class="card-deck-wrapper">
-  <div class="card-deck">
- 
-    <div class="card">
-      <img class="card-img-top" src=<%= @author.avatarimg%> alt="Card image cap" style="width:100%">
-      <div class="card-block">
-        <h4 class="card-title"><%= @author.name%></h4>
-        <p class="card-text"><%= @author.title%></p>
-      </div>
-      <div class="card-block pull-right">
-        
-        <%= link_to edit_admin_author_path(@author) do %>
-        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-        <% end %>
-        <%= link_to admin_author_path(@author), method: :destroy, data: { confirm: 'Are you sure?' }  do %>
-        <i class="fa fa fa-eraser" aria-hidden="true"></i>
-  <% end %>
-      </div>
-    </div>
+<%= render "profile" , author: @author%> 
 
+<section>
+  <header>
+   <%= link_to admin_author_projects_path(:author_id => @author.id) do %>
+        <h4><%= t(:portfolio)%></h4>
+   <%end%>
+ </header>
+ <div class="card-deck-wrapper">
+   <div class="card-deck">
+    <% @author.projects.each_with_index do |project,index| %>
+    <div class="card card-inverse text-xs-center">
+      <div class="image fit hight350"> 
+        <%= carousel_for(project.pictures.map{|p| p.url}) %>
+      </div>
+      <div class="card-img-overlay">
+        <h4 class="card-title"><%= project.title%></h4>
+        <p class="card-text"><%= project.description.html_safe%></p>
+        <hr class="card-title"/>
+        <h4 class="card-title"><%= link_to t(:edit), edit_admin_author_project_path(:author_id => project.author_id, :id => project.id)%></h4>
+      </div>
+    </div> 
+    <%end%>
+  </div>
 </div>
-</div>
+</section>

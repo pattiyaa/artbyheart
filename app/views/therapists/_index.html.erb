@@ -1,0 +1,26 @@
+<div class="wrapper">
+	<section id="Therapist" class="container special">
+	<header>
+		<h2><%= t(:home_title)%></h2>
+		<p><%= t(:home_subtitle)%></p>
+	</header>
+	<div class="card-deck-wrapper">
+		<div class="card-deck">
+			<% authors.each do |author| %>
+			 <div class="card">
+			    <%= link_to therapist_path(author), :class => "image featured"  do%>
+	            <img class="card-img-top"  src=<%= author.avatarimg.url%> alt="<%= author.name%>" />
+	            <%end%>
+	            <div class="card-block">
+	            	<%= link_to therapist_path(author), :class => "image featured"  do%>
+				    <h3 class="card-title"><%= author.name%></h3>
+				    <%end%>
+				    <strong class="card-text"><%= author.title %></strong>
+				    <p class="card-text"><small class="text-muted"><%= author.subtitle %></small></p>
+				</div>
+	          </div>
+	        <%end%>
+	    </div>
+	</div>
+	</section>
+</div>

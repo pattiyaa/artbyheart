@@ -1,0 +1,25 @@
+<div class="wrapper style2 ">
+  <section class="container special">
+	<header>
+		<h3>Portfolio</h3>
+	</header>
+	<div class="card-columns">
+		<% projects.each do |project|%>
+			<div class="card card-inverse text-xs-center">
+		      <div class="image fit "> 
+		        
+		        <%= image_tag project.pictures.first.url%>
+		      </div>
+		      <div class="card-img-overlay">
+		        <h4 class="card-title"><%= project.title%></h4>
+		        <p class="card-text"><%= project.description.html_safe%></p>
+		        <%= link_to project_path(project),data: { modal: true} do%>
+		           <i class="fa fa-play-circle-o fa-4" aria-hidden="true"></i></span>
+		         <%end%>
+		        
+		      </div>
+		    </div> 
+		<%end%>
+	</div>
+  </section>
+</div>

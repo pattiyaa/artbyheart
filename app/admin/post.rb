@@ -1,9 +1,10 @@
 ActiveAdmin.register Post do
+menu priority: 2, label: proc{ I18n.t("active_admin.post") }
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
 #
-permit_params :title,:subtitle, :post_category_id,:author_id,:isHighlight,:isToplist,:active,:cover_img,:published_date,:content,tag_ids: [:id]
+permit_params :title,:subtitle, :post_category_id,:author_id,:isHighlight,:isToplist,:active,:cover_img,:published_date,:content,tags_attributes:[:id,:name]
 #
 # or
 #
@@ -102,21 +103,35 @@ form do |f|
         f.label 'Author'
         f.collection_select :author_id, Author.all, :id, :name, { include_blank: 'Create new' }
       end
+      f.inputs 'Content' do
+          f.input :cover_img ,:image_preview => true,label: 'Cover photo'
+      end
+      f.input :content, :as => :ckeditor,:class=>'fieldright', input_html: {:ckeditor => {height: 550, :toolbar => 'FULL'}}, class: "form-control"
+    
+      f.inputs 'Options' do
       f.input :tags, as: :check_boxes, :collection => Tag.all
-      f.input :isHighlight , label: 'Show as highlight topic'
-      f.input :isToplist, label: 'Show in top 10 list'
-      f.input :active, label: 'Active'
-      f.input :cover_img ,:image_preview => true,label: 'Cover photo'
-      
+      # f.inputs 'Tag' do
+        
+      #   f.has_many :tags , :allow_destroy => true do |tag|
+      #     tag.input :name
+      #   end
+      # end
+      f.input :active,as: :toggleswitch, label: 'Active'
+      f.input :isHighlight ,as: :toggleswitch, label: 'Show as highlight topic'
+      f.input :isToplist,as: :toggleswitch, label: 'Show in top 10 list'
       f.li do
         f.label 'Publish Post At'
         f.date_field :published_date
       end
+      end
+    
+      
+      
     end
     
-    f.input :content, label: 'Content', :as => :ckeditor, input_html: {:ckeditor => {height: 550, :toolbar => 'FULL'}}, class: "form-control"
     f.submit lable: 'Submit'
     render partial: '/layouts/modalholder'
 end
+
 
 end

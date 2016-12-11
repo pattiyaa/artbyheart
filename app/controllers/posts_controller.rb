@@ -1,11 +1,9 @@
 class PostsController < ApplicationController 
 	def index
-		
 		if has_cat?
-			@posts = Post.where( :post_category_id => cat)
-
+			@posts = Post.where( :post_category_id => cat,:isToplist => true, :active => true).where("published_date <  ?",Date.today).order(updated_at: :desc)
 		else
-			@posts =Post.all
+			@posts =Post.where(:isToplist => true, :active => true).where("published_date <  ?",Date.today).order(updated_at: :desc)
 		end 
 	end
 	def show

@@ -9,13 +9,13 @@
     
   </head>
 
-  <body class="no-sidebar'">
+  <body class="no-sidebar">
     <div id="header" ></div>
     <!-- Nav -->
     <%= render :template=> 'share/menu'%>
-    <div class="container"
+    <!-- body -->
     <%= yield %>
-    </div>
+    <!-- footer -->
     <%= render  template: 'share/footer' %>
     <div id="modal-holder"></div> 
     <%= javascript_tag do %>

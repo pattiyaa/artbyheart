@@ -1,13 +1,19 @@
-<article>
-<a href="#" class="image featured"><img src=<%= post.cover_img%> /></a>
-	<header>
-		<h3><a href="#"><%= post.title%></a></h3>
-	</header>
-	
-	<% if post.subtitle.size <= 150  %>
+<div class="card">
+ <%= link_to '#' ,:class=>'image fit' do%>
+  <img class="card-img-top"  src=<%= post.cover_img%> alt="<%= post.title%>" />
+  <%end%>
+  <div class="card-block">
+    <h4 class="card-title"><%= post.title%> </h4>
+    <p class="card-text">
+    <% if post.subtitle.size <= 120  %>
 		<p><%=post.subtitle%></p>
 	<%else%>
-		<p><%= '%1.150s...'%post.subtitle %></p>
+		<p><%= '%1.120s...'%post.subtitle %></p>
 	<%end%>
-	<p class="pull-right"><small class="text-muted"><%= getLastUpdate(post.updated_at)%></small></p>
-</article>
+	</p>
+	<p class="card-text">
+		<small class="text-muted"> <%= getLastUpdate(post.updated_at)%></small>
+	</p>
+	<%= link_to t(:article_continue), post_path(post)%>
+  </div>
+</div>

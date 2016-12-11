@@ -1,32 +1,4 @@
-f.uni-blog-article {
-  width: 100%;
-}
-.uni-blog-article header{
-	background-color: #ffca28;
 
-}
-.uni-blog-article header .wrapper{
-	padding:20px  50px 0 50px;
-}
-.uni-blog-article section{
-	padding: 50px
-}
-.uni-blog-article section{
-
-	text-align: justify;
-}
-.uni-blog-article .img.cover {
-    height:450px;
-    background-color:#FFFFFF;
-    margin-top:10px;
-    overflow: hidden;
-    text-align: center;
-    vertical-align: middle; 
-}
-.uni-blog-article  .img.cover img{
-    width:100%;
-    display: block;
-}
 form fieldset > ol > li.boolean {
     padding: 22px 0;
 }
@@ -60,6 +32,13 @@ form input[type=submit]:not(.disabled):hover{
     color: #333333;
     text-decoration: none;
     
+}
+/*-------------- Sign in --------------*/
+form.signin .user_remember_me{
+    text-align: right
+}
+form.signin input[type=submit]{
+    width:250px;
 }
 .input-group-google-plus span.input-group-addon {
     background-color: #db3236;
@@ -97,16 +76,15 @@ form input[type=submit]:not(.disabled):hover{
     text-decoration: none;
 }
 
-form.signin .user_remember_me{
-    text-align: right
-}
-form.signin input[type=submit]{
-    width:250px;
-}
-.modal-body .center{
-    padding: 50px ;
-}
 
+.modal-body .center{
+    padding: 10px 40px ;
+}
+/*------------------ article -------------------*/
+.carousel article{
+    min-height: 550px;
+}
+/*-----------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 /*@import url("font-awesome.min.css");*/
 
@@ -1681,7 +1659,8 @@ form.signin input[type=submit]{
 
     input, textarea, select {
         font-size: 15pt;
-        line-height: 1.85em;
+        /*line-height: 1.85em;*/
+        line-height: 1em;
         font-family: 'Source Sans Pro', sans-serif;
         font-weight: 300;
     }
@@ -2204,12 +2183,14 @@ form.signin input[type=submit]{
     }
 
 
-    #header {
+    body.homepage #header,body.no-sidebar #header{
         position: relative;
-        background-image: url("../../assets/images/headbg.jpg");
-        background-size: cover;
+        background-image: url("../../assets/headbg.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
         background-position: center center;
-        background-attachment: fixed;
         /*color: #fff;*/
         color: #000;
         text-align: center;
@@ -2496,6 +2477,7 @@ form.signin input[type=submit]{
 
     #main {
         margin-bottom: 0;
+        text-align: center;
     }
 
     #main section:first-of-type {
@@ -2593,7 +2575,7 @@ form.signin input[type=submit]{
         position: absolute;
         top: 50%;
         margin: -1.5em 0 0 0;
-        background: url("images/arrow.svg") no-repeat center center;
+        background: url("arrow.svg") no-repeat center center;
     }
 
     .carousel .forward:hover:before, .carousel .backward:hover:before {
@@ -2650,6 +2632,8 @@ form.signin input[type=submit]{
         transition: opacity 0.75s ease-in-out;
     }
 
+
+
     .carousel article.loading {
         opacity: 0;
     }
@@ -2667,6 +2651,31 @@ form.signin input[type=submit]{
         text-align: center;
     }
 
+    .carousel .card {
+        display: inline-block;
+        width: 21em;
+        height: 33em;
+        text-align: center;
+        white-space: normal;
+        padding: 0 0.5em 3em 0.5em;
+        margin: 0 2em 0 0;
+        opacity: 1.0;
+        -moz-transition: opacity 0.75s ease-in-out;
+        -webkit-transition: opacity 0.75s ease-in-out;
+        -ms-transition: opacity 0.75s ease-in-out;
+        transition: opacity 0.75s ease-in-out;
+    }
+    .carousel .card .image {
+        position: relative;
+        left: -0.5em;
+        top: 0;
+        width: auto;
+        margin-right: -1em;
+        /*margin-bottom: 3em;*/
+    }
+    .carousel .card p {
+        text-align: center;
+    }
     /* Wide */
 
     @media screen and (max-width: 1680px) {

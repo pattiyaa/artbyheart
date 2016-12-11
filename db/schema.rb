@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161129123319) do
+ActiveRecord::Schema.define(version: 20161209103914) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -48,11 +48,12 @@ ActiveRecord::Schema.define(version: 20161129123319) do
 
   create_table "authors", force: :cascade do |t|
     t.string   "name"
-    t.string   "avatarimg"
     t.string   "title"
     t.integer  "login"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text     "profile"
+    t.string   "subtitle"
   end
 
   create_table "ckeditor_assets", force: :cascade do |t|
@@ -68,6 +69,13 @@ ActiveRecord::Schema.define(version: 20161129123319) do
     t.datetime "updated_at",                   null: false
     t.index ["assetable_type", "assetable_id"], name: "idx_ckeditor_assetable", using: :btree
     t.index ["assetable_type", "type", "assetable_id"], name: "idx_ckeditor_assetable_type", using: :btree
+  end
+
+  create_table "ckeditor_assets_projects", id: false, force: :cascade do |t|
+    t.integer "project_id"
+    t.integer "picture_id"
+    t.index ["picture_id"], name: "index_ckeditor_assets_projects_on_picture_id", using: :btree
+    t.index ["project_id"], name: "index_ckeditor_assets_projects_on_project_id", using: :btree
   end
 
   create_table "post_categories", force: :cascade do |t|
@@ -100,6 +108,15 @@ ActiveRecord::Schema.define(version: 20161129123319) do
     t.index ["tag_id"], name: "index_posts_tags_on_tag_id", using: :btree
   end
 
+  create_table "projects", force: :cascade do |t|
+    t.string   "title"
+    t.text     "description"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "author_id"
+    t.index ["author_id"], name: "index_projects_on_author_id", using: :btree
+  end
+
   create_table "tags", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false
@@ -127,4 +144,5 @@ ActiveRecord::Schema.define(version: 20161129123319) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
   end
 
+  add_foreign_key "projects", "authors"
 end
