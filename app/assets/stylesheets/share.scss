@@ -101,13 +101,39 @@ cursor: hand;
     border-radius: 8%;
 }
 .image.fit.profile{
-    padding: 0 0 12px 0;
+    margin-bottom: 12px;
+    width: 150px;
 }
 .image.fit.profile img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
+.image.fit.profile img.mini{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+.image.fit.mainscroll{
+    
+    height: 18em;
+    overflow: hidden;
+    position: relative;
+}
+.image.featured.mainpage{
+    height: 27em;
+    overflow: hidden;
+    position: relative;
+}
+.image.fit.mainscroll img,.image.featured.mainpage img{
+    
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    
+}
+
 
 /*-------------------show Article------------------------*/
 .uni-blog-article {
@@ -132,16 +158,18 @@ cursor: hand;
 	text-align: justify;
 }
 .uni-blog-article .img.cover {
-    height:450px;
+    height:400px;
+    display: block;
     background-color:#FFFFFF;
-    /*margin-top:10px;*/
+    position: relative;
     overflow: hidden;
-    text-align: center;
-    vertical-align: middle; 
 }
 .uni-blog-article  .img.cover img{
-    width:100%;
+    width: 100%;
     display: block;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 }
 /*-------------- Show Therapist ----------------*/
 #Therapist .card{

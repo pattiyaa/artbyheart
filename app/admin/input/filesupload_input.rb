@@ -30,8 +30,8 @@ class FilesuploadInput < Formtastic::Inputs::FileInput
 
   def input_value
     template.content_tag(:span, :id => "tempfiles", :style=>"display:none")  do
-        selected_pictures.each_with_index.reduce('') { |c, (pic,index)|
-            c <<  builder.hidden_field(method,:multiple => true,:id=>"selectedfile_"+(index+1).to_s,:value => pic,:class=>"temp")
+        selected_pictures.each_with_index.reduce('') { |c, (pic,index)| 
+            c <<  builder.hidden_field(method,:multiple => true,:id=>"selectedfile_"+(index+1).to_s,:value => {'id': pic.id},:class=>"temp")
           }.html_safe
     end << template.hidden_field_tag("itemcount", selected_pictures.length)
   end

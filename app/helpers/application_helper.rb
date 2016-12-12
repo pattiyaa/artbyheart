@@ -11,7 +11,7 @@ module ApplicationHelper
     link_to link_text, link_path
   end
  end
-
+ 
 
   private
   def add_default_class(html_options)

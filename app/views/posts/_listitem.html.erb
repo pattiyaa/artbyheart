@@ -1,0 +1,13 @@
+<article class="col-xs-12 col-sm-3 col-md-4 special">
+	<%= link_to post_path(post) ,:class=>'image fit mainscroll' do%>
+  		<img   src=<%= post.cover_img.url%> alt="<%= post.title%>" />
+  	<%end%>
+	<header>
+		<h3><%= link_to post.title , post_path(post)%></h3>
+
+	</header>
+	<p><%=post.subtitle%></p>
+	<p >
+		<small class="text-muted"> <%= getLastUpdate(post.updated_at)%></small>
+	</p>
+</article>

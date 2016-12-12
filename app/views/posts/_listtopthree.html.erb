@@ -1,0 +1,11 @@
+<div class="wrapper ">
+<h2><%=t(:msg_suggest)%></h2>
+<br/>
+<div class="card-deck-wrapper ">
+	<div class="card-deck">
+		<% posts.each do |post| %>
+			<%= render 'posts/listitem', post: post %>
+		<%end%>
+	</div>
+</div>
+</div>

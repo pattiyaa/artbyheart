@@ -2,14 +2,16 @@
 <% if @posts.empty? %>
 <p><%= t(:ntf_noposts)%></p>
 <% else %>
+<% if @posts.size > 4%>
 <div class="card-columns">
-	<div class="card-deck-wrapper">
-		<div class="card-deck">
+<%else%>
+<div class="card-deck-wrapper">
+<div class="card-deck">
+<%end %>
 			<% @posts.each do |post| %>
-			<div class="card" style="margin-bottom:10px">
-				
+			<div class="card col-md-4" style="margin-bottom:10px">
 				<%= link_to post_path(post) do%>
-				<img class="card-img-top" src=<%= post.cover_img%>  style="width:100%">
+				<img class="card-img-top" src=<%= post.cover_img.url%>  style="width:100%">
 				<% end %>
 				<div class="card-block">
 					<%= link_to post_path(post) do%> 
@@ -37,8 +39,9 @@
 				</div>
 			</div>
 			<%end%>
-		</div>
+	<% if @posts.size < 4%>
 	</div>
+	<%end%>
 </div>
 <%end%>
 </div>

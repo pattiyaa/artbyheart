@@ -76,7 +76,11 @@ form.signin input[type=submit]{
     text-decoration: none;
 }
 
-
+/*------------------- modal ----------------*/
+.modal-header button:hover{
+    background: none;
+    color: #ef8376;
+}
 .modal-body .center{
     padding: 10px 40px ;
 }
@@ -2651,31 +2655,35 @@ form.signin input[type=submit]{
         text-align: center;
     }
 
-    .carousel .card {
+    .carousel.mainscroll .card {
         display: inline-block;
-        width: 21em;
-        height: 33em;
+        width: 18em;
         text-align: center;
         white-space: normal;
         padding: 0 0.5em 3em 0.5em;
-        margin: 0 2em 0 0;
+        margin: 0 1em 0 0;
         opacity: 1.0;
         -moz-transition: opacity 0.75s ease-in-out;
         -webkit-transition: opacity 0.75s ease-in-out;
         -ms-transition: opacity 0.75s ease-in-out;
         transition: opacity 0.75s ease-in-out;
     }
+
     .carousel .card .image {
         position: relative;
         left: -0.5em;
         top: 0;
         width: auto;
         margin-right: -1em;
-        /*margin-bottom: 3em;*/
+       
     }
     .carousel .card p {
         text-align: center;
     }
+    .carousel.mainscroll .card .card-block{
+        height: 12em;
+    }
+
     /* Wide */
 
     @media screen and (max-width: 1680px) {

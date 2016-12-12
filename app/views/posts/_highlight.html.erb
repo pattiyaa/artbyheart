@@ -2,9 +2,9 @@
 	<div class="wrapper style2">
 
 		<article id="main" class="container special">
-			<a href="#" class="image featured"><img src=<%= post.cover_img%>  /></a>
+			<a href="#" class="image featured"><img src=<%= post.cover_img.url%>  /></a>
 			<header>
-				<h2><a href="#"><%= post.title%></a></h2>
+				<h2><%= link_to post.title , post_path(post) %></h2>
 				<p>
 					<%=post.subtitle%>
 				</p>
@@ -17,9 +17,7 @@
 					<p><%= '%1.800s...'%content.html_safe %></p>
 				<%end%>
 			</p>
-
-			<a href="#" class="button">Continue Reading</a>
-
+			<%= link_to t(:article_continue) , post_path(post), :class =>"button" %>
 		</article>
 
 	</div>

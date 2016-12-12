@@ -46,9 +46,18 @@ index as: :block ,:class =>"card-deck" do |project|
 end
 controller do
 	def updatepicture
+
+		@pics=[]
 		params[:project][:pictures].each do |pic|
-			@project.pictures.new(data: pic)
+			begin
+				if eval(pic)[:id].present?
+					@pics.push(Ckeditor::Picture.find(eval(pic)[:id]))
+				end
+			rescue
+				@pics.push(Ckeditor::Picture.new(data: pic))
+			end
 		end
+		@project.pictures =@pics 
 		@project.save
 	end
 end

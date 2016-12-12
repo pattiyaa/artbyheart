@@ -8,6 +8,7 @@ class PostsController < ApplicationController
 	end
 	def show
 		set_post
+		@topposts = Post.where(:active => true).where("published_date <  ? AND id != ?",Date.today,params[:id]).order(updated_at: :desc).limit(3)
 	end
 	private
 	def set_post

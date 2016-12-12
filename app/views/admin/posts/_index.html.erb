@@ -16,7 +16,10 @@
 					</div>
 				</div>
 				<%= link_to admin_post_path(post) ,:class => "image fit" do%>
-				<img class="card-img-top imp-fluid" src=<%= post.cover_img%>  >
+				
+				<% if post.cover_img.present? %>
+				<%= image_tag post.cover_img.url, :class =>"card-img-top imp-fluid" %>
+				<% end%>
 				<% end %>
 				<div class="card-block">
 					<%= link_to admin_post_path(post) do%> 

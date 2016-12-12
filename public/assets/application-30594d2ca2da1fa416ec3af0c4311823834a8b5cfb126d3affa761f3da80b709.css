@@ -11519,13 +11519,20 @@ form.signin input[type=submit] {
   text-decoration: none;
 }
 
+/*------------------- modal ----------------*/
 /* line 80, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+.modal-header button:hover {
+  background: none;
+  color: #ef8376;
+}
+
+/* line 84, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .modal-body .center {
-  padding: 50px;
+  padding: 10px 40px;
 }
 
 /*------------------ article -------------------*/
-/* line 84, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 88, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel article {
   min-height: 550px;
 }
@@ -11538,7 +11545,7 @@ form.signin input[type=submit] {
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
     */
 /* Reset */
-/* line 99, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 103, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -11548,237 +11555,237 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   vertical-align: baseline;
 }
 
-/* line 108, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 112, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 112, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 116, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 body {
   line-height: 1;
 }
 
-/* line 116, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 120, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 120, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 124, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 124, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 128, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 129, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 133, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 134, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 138, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 body {
   -webkit-text-size-adjust: none;
 }
 
 /* Box Model */
-/* line 140, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 144, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
 /* Containers */
-/* line 148, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 152, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .container {
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 153, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 157, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .container.\31 25\25 {
   width: 100%;
   max-width: 1750px;
   min-width: 1400px;
 }
 
-/* line 159, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 163, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .container.\37 5\25 {
   width: 1050px;
 }
 
-/* line 163, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 167, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .container.\35 0\25 {
   width: 700px;
 }
 
-/* line 167, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 171, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .container.\32 5\25 {
   width: 350px;
 }
 
-/* line 171, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 175, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .container {
   width: 1400px;
 }
 
 @media screen and (max-width: 1680px) {
-  /* line 177, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 181, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\31 25\25 {
     width: 100%;
     max-width: 1500px;
     min-width: 1200px;
   }
 
-  /* line 183, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 187, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\37 5\25 {
     width: 900px;
   }
 
-  /* line 187, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 191, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\35 0\25 {
     width: 600px;
   }
 
-  /* line 191, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 195, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\32 5\25 {
     width: 300px;
   }
 
-  /* line 195, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 199, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container {
     width: 1200px;
   }
 }
 @media screen and (max-width: 1280px) {
-  /* line 203, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 207, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\31 25\25 {
     width: 100%;
     max-width: 125%;
     min-width: 100%;
   }
 
-  /* line 209, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 213, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\37 5\25 {
     width: 75%;
   }
 
-  /* line 213, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 217, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\35 0\25 {
     width: 50%;
   }
 
-  /* line 217, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 221, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\32 5\25 {
     width: 25%;
   }
 
-  /* line 221, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 225, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container {
     width: 100%;
   }
 }
 @media screen and (max-width: 960px) {
-  /* line 229, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 233, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\31 25\25 {
     width: 100%;
     max-width: 125%;
     min-width: 100%;
   }
 
-  /* line 235, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 239, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\37 5\25 {
     width: 75%;
   }
 
-  /* line 239, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 243, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\35 0\25 {
     width: 50%;
   }
 
-  /* line 243, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 247, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\32 5\25 {
     width: 25%;
   }
 
-  /* line 247, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 251, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container {
     width: 100%;
   }
 }
 @media screen and (max-width: 840px) {
-  /* line 255, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 259, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\31 25\25 {
     width: 100%;
     max-width: 125%;
     min-width: 100%;
   }
 
-  /* line 261, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 265, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\37 5\25 {
     width: 75%;
   }
 
-  /* line 265, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 269, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\35 0\25 {
     width: 50%;
   }
 
-  /* line 269, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 273, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\32 5\25 {
     width: 25%;
   }
 
-  /* line 273, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 277, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container {
     width: 100% !important;
   }
 }
 @media screen and (max-width: 736px) {
-  /* line 281, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 285, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\31 25\25 {
     width: 100%;
     max-width: 125%;
     min-width: 100%;
   }
 
-  /* line 287, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 291, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\37 5\25 {
     width: 75%;
   }
 
-  /* line 291, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 295, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\35 0\25 {
     width: 50%;
   }
 
-  /* line 295, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 299, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container.\32 5\25 {
     width: 25%;
   }
 
-  /* line 299, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 303, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .container {
     width: 100% !important;
   }
 }
 /* Grid */
-/* line 307, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 311, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row {
   border-bottom: solid 1px transparent;
   box-sizing: border-box;
 }
 
-/* line 314, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 318, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row > * {
   float: left;
   box-sizing: border-box;
 }
 
-/* line 321, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 325, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row:after, .row:before {
   content: '';
   display: block;
@@ -11786,221 +11793,221 @@ body {
   height: 0;
 }
 
-/* line 328, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 332, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform > * > :first-child {
   margin-top: 0;
 }
 
-/* line 332, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 336, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform > * > :last-child {
   margin-bottom: 0;
 }
 
-/* line 336, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 340, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.\30 \25  > * {
   padding: 0px 0 0 0px;
 }
 
-/* line 340, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 344, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.\30 \25 {
   margin: 0px 0 -1px 0px;
 }
 
-/* line 344, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 348, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform.\30 \25  > * {
   padding: 0px 0 0 0px;
 }
 
-/* line 348, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 352, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform.\30 \25 {
   margin: 0px 0 -1px 0px;
 }
 
-/* line 352, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 356, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row > * {
   padding: 48px 0 0 48px;
 }
 
-/* line 356, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 360, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row {
   margin: -48px 0 -1px -48px;
 }
 
-/* line 360, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 364, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform > * {
   padding: 48px 0 0 48px;
 }
 
-/* line 364, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 368, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform {
   margin: -48px 0 -1px -48px;
 }
 
-/* line 368, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 372, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.\32 00\25  > * {
   padding: 96px 0 0 96px;
 }
 
-/* line 372, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 376, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.\32 00\25 {
   margin: -96px 0 -1px -96px;
 }
 
-/* line 376, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 380, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform.\32 00\25  > * {
   padding: 96px 0 0 96px;
 }
 
-/* line 380, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 384, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform.\32 00\25 {
   margin: -96px 0 -1px -96px;
 }
 
-/* line 384, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 388, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.\31 50\25  > * {
   padding: 72px 0 0 72px;
 }
 
-/* line 388, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 392, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.\31 50\25 {
   margin: -72px 0 -1px -72px;
 }
 
-/* line 392, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 396, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform.\31 50\25  > * {
   padding: 72px 0 0 72px;
 }
 
-/* line 396, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 400, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform.\31 50\25 {
   margin: -72px 0 -1px -72px;
 }
 
-/* line 400, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 404, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.\35 0\25  > * {
   padding: 24px 0 0 24px;
 }
 
-/* line 404, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 408, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.\35 0\25 {
   margin: -24px 0 -1px -24px;
 }
 
-/* line 408, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 412, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform.\35 0\25  > * {
   padding: 24px 0 0 24px;
 }
 
-/* line 412, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 416, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform.\35 0\25 {
   margin: -24px 0 -1px -24px;
 }
 
-/* line 416, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 420, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.\32 5\25  > * {
   padding: 12px 0 0 12px;
 }
 
-/* line 420, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 424, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.\32 5\25 {
   margin: -12px 0 -1px -12px;
 }
 
-/* line 424, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 428, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform.\32 5\25  > * {
   padding: 12px 0 0 12px;
 }
 
-/* line 428, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 432, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row.uniform.\32 5\25 {
   margin: -12px 0 -1px -12px;
 }
 
-/* line 432, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 436, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\31 2u, .\31 2u\24 {
   width: 100%;
   clear: none;
   margin-left: 0;
 }
 
-/* line 438, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 442, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\31 1u, .\31 1u\24 {
   width: 91.6666666667%;
   clear: none;
   margin-left: 0;
 }
 
-/* line 444, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 448, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\31 0u, .\31 0u\24 {
   width: 83.3333333333%;
   clear: none;
   margin-left: 0;
 }
 
-/* line 450, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 454, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\39 u, .\39 u\24 {
   width: 75%;
   clear: none;
   margin-left: 0;
 }
 
-/* line 456, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 460, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\38 u, .\38 u\24 {
   width: 66.6666666667%;
   clear: none;
   margin-left: 0;
 }
 
-/* line 462, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 466, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\37 u, .\37 u\24 {
   width: 58.3333333333%;
   clear: none;
   margin-left: 0;
 }
 
-/* line 468, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 472, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\36 u, .\36 u\24 {
   width: 50%;
   clear: none;
   margin-left: 0;
 }
 
-/* line 474, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 478, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\35 u, .\35 u\24 {
   width: 41.6666666667%;
   clear: none;
   margin-left: 0;
 }
 
-/* line 480, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 484, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\34 u, .\34 u\24 {
   width: 33.3333333333%;
   clear: none;
   margin-left: 0;
 }
 
-/* line 486, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 490, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\33 u, .\33 u\24 {
   width: 25%;
   clear: none;
   margin-left: 0;
 }
 
-/* line 492, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 496, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\32 u, .\32 u\24 {
   width: 16.6666666667%;
   clear: none;
   margin-left: 0;
 }
 
-/* line 498, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 502, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\31 u, .\31 u\24 {
   width: 8.3333333333%;
   clear: none;
   margin-left: 0;
 }
 
-/* line 504, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 508, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\31 2u\24  + *,
 .\31 1u\24  + *,
 .\31 0u\24  + *,
@@ -12016,247 +12023,247 @@ body {
   clear: left;
 }
 
-/* line 519, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 523, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\-11u {
   margin-left: 91.66667%;
 }
 
-/* line 523, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 527, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\-10u {
   margin-left: 83.33333%;
 }
 
-/* line 527, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 531, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\-9u {
   margin-left: 75%;
 }
 
-/* line 531, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 535, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\-8u {
   margin-left: 66.66667%;
 }
 
-/* line 535, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 539, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\-7u {
   margin-left: 58.33333%;
 }
 
-/* line 539, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 543, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\-6u {
   margin-left: 50%;
 }
 
-/* line 543, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 547, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\-5u {
   margin-left: 41.66667%;
 }
 
-/* line 547, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 551, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\-4u {
   margin-left: 33.33333%;
 }
 
-/* line 551, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 555, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\-3u {
   margin-left: 25%;
 }
 
-/* line 555, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 559, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\-2u {
   margin-left: 16.66667%;
 }
 
-/* line 559, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 563, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .\-1u {
   margin-left: 8.33333%;
 }
 
 @media screen and (max-width: 1680px) {
-  /* line 565, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 569, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row > * {
     padding: 48px 0 0 48px;
   }
 
-  /* line 569, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 573, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row {
     margin: -48px 0 -1px -48px;
   }
 
-  /* line 573, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 577, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform > * {
     padding: 48px 0 0 48px;
   }
 
-  /* line 577, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 581, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform {
     margin: -48px 0 -1px -48px;
   }
 
-  /* line 581, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 585, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 00\25  > * {
     padding: 96px 0 0 96px;
   }
 
-  /* line 585, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 589, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 00\25 {
     margin: -96px 0 -1px -96px;
   }
 
-  /* line 589, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 593, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 00\25  > * {
     padding: 96px 0 0 96px;
   }
 
-  /* line 593, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 597, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 00\25 {
     margin: -96px 0 -1px -96px;
   }
 
-  /* line 597, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 601, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\31 50\25  > * {
     padding: 72px 0 0 72px;
   }
 
-  /* line 601, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 605, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\31 50\25 {
     margin: -72px 0 -1px -72px;
   }
 
-  /* line 605, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 609, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\31 50\25  > * {
     padding: 72px 0 0 72px;
   }
 
-  /* line 609, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 613, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\31 50\25 {
     margin: -72px 0 -1px -72px;
   }
 
-  /* line 613, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 617, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\35 0\25  > * {
     padding: 24px 0 0 24px;
   }
 
-  /* line 617, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 621, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\35 0\25 {
     margin: -24px 0 -1px -24px;
   }
 
-  /* line 621, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 625, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\35 0\25  > * {
     padding: 24px 0 0 24px;
   }
 
-  /* line 625, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 629, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\35 0\25 {
     margin: -24px 0 -1px -24px;
   }
 
-  /* line 629, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 633, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 5\25  > * {
     padding: 12px 0 0 12px;
   }
 
-  /* line 633, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 637, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 5\25 {
     margin: -12px 0 -1px -12px;
   }
 
-  /* line 637, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 641, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 5\25  > * {
     padding: 12px 0 0 12px;
   }
 
-  /* line 641, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 645, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 5\25 {
     margin: -12px 0 -1px -12px;
   }
 
-  /* line 645, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 649, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 2u\28wide\29, .\31 2u\24\28wide\29 {
     width: 100%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 651, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 655, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 1u\28wide\29, .\31 1u\24\28wide\29 {
     width: 91.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 657, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 661, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 0u\28wide\29, .\31 0u\24\28wide\29 {
     width: 83.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 663, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 667, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\39 u\28wide\29, .\39 u\24\28wide\29 {
     width: 75%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 669, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 673, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\38 u\28wide\29, .\38 u\24\28wide\29 {
     width: 66.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 675, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 679, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\37 u\28wide\29, .\37 u\24\28wide\29 {
     width: 58.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 681, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 685, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\36 u\28wide\29, .\36 u\24\28wide\29 {
     width: 50%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 687, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 691, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\35 u\28wide\29, .\35 u\24\28wide\29 {
     width: 41.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 693, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 697, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\34 u\28wide\29, .\34 u\24\28wide\29 {
     width: 33.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 699, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 703, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\33 u\28wide\29, .\33 u\24\28wide\29 {
     width: 25%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 705, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 709, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\32 u\28wide\29, .\32 u\24\28wide\29 {
     width: 16.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 711, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 715, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 u\28wide\29, .\31 u\24\28wide\29 {
     width: 8.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 717, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 721, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 2u\24\28wide\29  + *,
   .\31 1u\24\28wide\29  + *,
   .\31 0u\24\28wide\29  + *,
@@ -12272,247 +12279,247 @@ body {
     clear: left;
   }
 
-  /* line 732, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 736, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-11u\28wide\29 {
     margin-left: 91.66667%;
   }
 
-  /* line 736, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 740, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-10u\28wide\29 {
     margin-left: 83.33333%;
   }
 
-  /* line 740, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 744, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-9u\28wide\29 {
     margin-left: 75%;
   }
 
-  /* line 744, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 748, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-8u\28wide\29 {
     margin-left: 66.66667%;
   }
 
-  /* line 748, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 752, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-7u\28wide\29 {
     margin-left: 58.33333%;
   }
 
-  /* line 752, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 756, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-6u\28wide\29 {
     margin-left: 50%;
   }
 
-  /* line 756, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 760, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-5u\28wide\29 {
     margin-left: 41.66667%;
   }
 
-  /* line 760, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 764, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-4u\28wide\29 {
     margin-left: 33.33333%;
   }
 
-  /* line 764, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 768, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-3u\28wide\29 {
     margin-left: 25%;
   }
 
-  /* line 768, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 772, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-2u\28wide\29 {
     margin-left: 16.66667%;
   }
 
-  /* line 772, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 776, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-1u\28wide\29 {
     margin-left: 8.33333%;
   }
 }
 @media screen and (max-width: 1280px) {
-  /* line 780, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 784, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row > * {
     padding: 36px 0 0 36px;
   }
 
-  /* line 784, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 788, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row {
     margin: -36px 0 -1px -36px;
   }
 
-  /* line 788, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 792, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform > * {
     padding: 36px 0 0 36px;
   }
 
-  /* line 792, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 796, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform {
     margin: -36px 0 -1px -36px;
   }
 
-  /* line 796, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 800, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 00\25  > * {
     padding: 72px 0 0 72px;
   }
 
-  /* line 800, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 804, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 00\25 {
     margin: -72px 0 -1px -72px;
   }
 
-  /* line 804, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 808, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 00\25  > * {
     padding: 72px 0 0 72px;
   }
 
-  /* line 808, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 812, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 00\25 {
     margin: -72px 0 -1px -72px;
   }
 
-  /* line 812, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 816, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\31 50\25  > * {
     padding: 54px 0 0 54px;
   }
 
-  /* line 816, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 820, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\31 50\25 {
     margin: -54px 0 -1px -54px;
   }
 
-  /* line 820, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 824, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\31 50\25  > * {
     padding: 54px 0 0 54px;
   }
 
-  /* line 824, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 828, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\31 50\25 {
     margin: -54px 0 -1px -54px;
   }
 
-  /* line 828, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 832, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\35 0\25  > * {
     padding: 18px 0 0 18px;
   }
 
-  /* line 832, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 836, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\35 0\25 {
     margin: -18px 0 -1px -18px;
   }
 
-  /* line 836, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 840, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\35 0\25  > * {
     padding: 18px 0 0 18px;
   }
 
-  /* line 840, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 844, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\35 0\25 {
     margin: -18px 0 -1px -18px;
   }
 
-  /* line 844, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 848, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 5\25  > * {
     padding: 9px 0 0 9px;
   }
 
-  /* line 848, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 852, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 5\25 {
     margin: -9px 0 -1px -9px;
   }
 
-  /* line 852, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 856, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 5\25  > * {
     padding: 9px 0 0 9px;
   }
 
-  /* line 856, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 860, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 5\25 {
     margin: -9px 0 -1px -9px;
   }
 
-  /* line 860, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 864, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 2u\28normal\29, .\31 2u\24\28normal\29 {
     width: 100%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 866, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 870, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 1u\28normal\29, .\31 1u\24\28normal\29 {
     width: 91.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 872, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 876, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 0u\28normal\29, .\31 0u\24\28normal\29 {
     width: 83.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 878, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 882, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\39 u\28normal\29, .\39 u\24\28normal\29 {
     width: 75%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 884, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 888, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\38 u\28normal\29, .\38 u\24\28normal\29 {
     width: 66.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 890, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 894, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\37 u\28normal\29, .\37 u\24\28normal\29 {
     width: 58.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 896, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 900, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\36 u\28normal\29, .\36 u\24\28normal\29 {
     width: 50%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 902, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 906, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\35 u\28normal\29, .\35 u\24\28normal\29 {
     width: 41.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 908, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 912, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\34 u\28normal\29, .\34 u\24\28normal\29 {
     width: 33.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 914, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 918, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\33 u\28normal\29, .\33 u\24\28normal\29 {
     width: 25%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 920, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 924, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\32 u\28normal\29, .\32 u\24\28normal\29 {
     width: 16.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 926, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 930, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 u\28normal\29, .\31 u\24\28normal\29 {
     width: 8.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 932, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 936, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 2u\24\28normal\29  + *,
   .\31 1u\24\28normal\29  + *,
   .\31 0u\24\28normal\29  + *,
@@ -12528,247 +12535,247 @@ body {
     clear: left;
   }
 
-  /* line 947, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 951, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-11u\28normal\29 {
     margin-left: 91.66667%;
   }
 
-  /* line 951, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 955, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-10u\28normal\29 {
     margin-left: 83.33333%;
   }
 
-  /* line 955, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 959, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-9u\28normal\29 {
     margin-left: 75%;
   }
 
-  /* line 959, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 963, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-8u\28normal\29 {
     margin-left: 66.66667%;
   }
 
-  /* line 963, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 967, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-7u\28normal\29 {
     margin-left: 58.33333%;
   }
 
-  /* line 967, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 971, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-6u\28normal\29 {
     margin-left: 50%;
   }
 
-  /* line 971, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 975, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-5u\28normal\29 {
     margin-left: 41.66667%;
   }
 
-  /* line 975, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 979, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-4u\28normal\29 {
     margin-left: 33.33333%;
   }
 
-  /* line 979, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 983, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-3u\28normal\29 {
     margin-left: 25%;
   }
 
-  /* line 983, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 987, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-2u\28normal\29 {
     margin-left: 16.66667%;
   }
 
-  /* line 987, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 991, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-1u\28normal\29 {
     margin-left: 8.33333%;
   }
 }
 @media screen and (max-width: 960px) {
-  /* line 995, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 999, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row > * {
     padding: 32px 0 0 32px;
   }
 
-  /* line 999, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1003, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row {
     margin: -32px 0 -1px -32px;
   }
 
-  /* line 1003, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1007, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform > * {
     padding: 32px 0 0 32px;
   }
 
-  /* line 1007, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1011, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform {
     margin: -32px 0 -1px -32px;
   }
 
-  /* line 1011, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1015, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 00\25  > * {
     padding: 64px 0 0 64px;
   }
 
-  /* line 1015, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1019, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 00\25 {
     margin: -64px 0 -1px -64px;
   }
 
-  /* line 1019, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1023, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 00\25  > * {
     padding: 64px 0 0 64px;
   }
 
-  /* line 1023, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1027, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 00\25 {
     margin: -64px 0 -1px -64px;
   }
 
-  /* line 1027, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1031, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\31 50\25  > * {
     padding: 48px 0 0 48px;
   }
 
-  /* line 1031, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1035, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\31 50\25 {
     margin: -48px 0 -1px -48px;
   }
 
-  /* line 1035, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1039, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\31 50\25  > * {
     padding: 48px 0 0 48px;
   }
 
-  /* line 1039, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1043, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\31 50\25 {
     margin: -48px 0 -1px -48px;
   }
 
-  /* line 1043, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1047, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\35 0\25  > * {
     padding: 16px 0 0 16px;
   }
 
-  /* line 1047, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1051, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\35 0\25 {
     margin: -16px 0 -1px -16px;
   }
 
-  /* line 1051, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1055, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\35 0\25  > * {
     padding: 16px 0 0 16px;
   }
 
-  /* line 1055, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1059, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\35 0\25 {
     margin: -16px 0 -1px -16px;
   }
 
-  /* line 1059, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1063, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 5\25  > * {
     padding: 8px 0 0 8px;
   }
 
-  /* line 1063, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1067, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 5\25 {
     margin: -8px 0 -1px -8px;
   }
 
-  /* line 1067, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1071, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 5\25  > * {
     padding: 8px 0 0 8px;
   }
 
-  /* line 1071, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1075, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 5\25 {
     margin: -8px 0 -1px -8px;
   }
 
-  /* line 1075, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1079, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 2u\28narrow\29, .\31 2u\24\28narrow\29 {
     width: 100%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1081, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1085, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 1u\28narrow\29, .\31 1u\24\28narrow\29 {
     width: 91.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1087, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1091, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 0u\28narrow\29, .\31 0u\24\28narrow\29 {
     width: 83.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1093, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1097, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\39 u\28narrow\29, .\39 u\24\28narrow\29 {
     width: 75%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1099, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1103, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\38 u\28narrow\29, .\38 u\24\28narrow\29 {
     width: 66.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1105, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1109, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\37 u\28narrow\29, .\37 u\24\28narrow\29 {
     width: 58.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1111, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1115, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\36 u\28narrow\29, .\36 u\24\28narrow\29 {
     width: 50%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1117, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1121, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\35 u\28narrow\29, .\35 u\24\28narrow\29 {
     width: 41.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1123, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1127, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\34 u\28narrow\29, .\34 u\24\28narrow\29 {
     width: 33.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1129, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1133, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\33 u\28narrow\29, .\33 u\24\28narrow\29 {
     width: 25%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1135, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1139, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\32 u\28narrow\29, .\32 u\24\28narrow\29 {
     width: 16.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1141, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1145, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 u\28narrow\29, .\31 u\24\28narrow\29 {
     width: 8.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1147, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1151, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 2u\24\28narrow\29  + *,
   .\31 1u\24\28narrow\29  + *,
   .\31 0u\24\28narrow\29  + *,
@@ -12784,247 +12791,247 @@ body {
     clear: left;
   }
 
-  /* line 1162, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1166, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-11u\28narrow\29 {
     margin-left: 91.66667%;
   }
 
-  /* line 1166, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1170, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-10u\28narrow\29 {
     margin-left: 83.33333%;
   }
 
-  /* line 1170, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1174, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-9u\28narrow\29 {
     margin-left: 75%;
   }
 
-  /* line 1174, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1178, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-8u\28narrow\29 {
     margin-left: 66.66667%;
   }
 
-  /* line 1178, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1182, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-7u\28narrow\29 {
     margin-left: 58.33333%;
   }
 
-  /* line 1182, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1186, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-6u\28narrow\29 {
     margin-left: 50%;
   }
 
-  /* line 1186, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1190, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-5u\28narrow\29 {
     margin-left: 41.66667%;
   }
 
-  /* line 1190, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1194, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-4u\28narrow\29 {
     margin-left: 33.33333%;
   }
 
-  /* line 1194, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1198, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-3u\28narrow\29 {
     margin-left: 25%;
   }
 
-  /* line 1198, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1202, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-2u\28narrow\29 {
     margin-left: 16.66667%;
   }
 
-  /* line 1202, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1206, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-1u\28narrow\29 {
     margin-left: 8.33333%;
   }
 }
 @media screen and (max-width: 840px) {
-  /* line 1210, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1214, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row > * {
     padding: 32px 0 0 32px;
   }
 
-  /* line 1214, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1218, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row {
     margin: -32px 0 -1px -32px;
   }
 
-  /* line 1218, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1222, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform > * {
     padding: 32px 0 0 32px;
   }
 
-  /* line 1222, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1226, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform {
     margin: -32px 0 -1px -32px;
   }
 
-  /* line 1226, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1230, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 00\25  > * {
     padding: 64px 0 0 64px;
   }
 
-  /* line 1230, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1234, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 00\25 {
     margin: -64px 0 -1px -64px;
   }
 
-  /* line 1234, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1238, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 00\25  > * {
     padding: 64px 0 0 64px;
   }
 
-  /* line 1238, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1242, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 00\25 {
     margin: -64px 0 -1px -64px;
   }
 
-  /* line 1242, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1246, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\31 50\25  > * {
     padding: 48px 0 0 48px;
   }
 
-  /* line 1246, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1250, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\31 50\25 {
     margin: -48px 0 -1px -48px;
   }
 
-  /* line 1250, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1254, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\31 50\25  > * {
     padding: 48px 0 0 48px;
   }
 
-  /* line 1254, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1258, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\31 50\25 {
     margin: -48px 0 -1px -48px;
   }
 
-  /* line 1258, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1262, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\35 0\25  > * {
     padding: 16px 0 0 16px;
   }
 
-  /* line 1262, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1266, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\35 0\25 {
     margin: -16px 0 -1px -16px;
   }
 
-  /* line 1266, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1270, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\35 0\25  > * {
     padding: 16px 0 0 16px;
   }
 
-  /* line 1270, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1274, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\35 0\25 {
     margin: -16px 0 -1px -16px;
   }
 
-  /* line 1274, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1278, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 5\25  > * {
     padding: 8px 0 0 8px;
   }
 
-  /* line 1278, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1282, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 5\25 {
     margin: -8px 0 -1px -8px;
   }
 
-  /* line 1282, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1286, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 5\25  > * {
     padding: 8px 0 0 8px;
   }
 
-  /* line 1286, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1290, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 5\25 {
     margin: -8px 0 -1px -8px;
   }
 
-  /* line 1290, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1294, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 2u\28narrower\29, .\31 2u\24\28narrower\29 {
     width: 100%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1296, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1300, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 1u\28narrower\29, .\31 1u\24\28narrower\29 {
     width: 91.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1302, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1306, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 0u\28narrower\29, .\31 0u\24\28narrower\29 {
     width: 83.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1308, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1312, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\39 u\28narrower\29, .\39 u\24\28narrower\29 {
     width: 75%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1314, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1318, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\38 u\28narrower\29, .\38 u\24\28narrower\29 {
     width: 66.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1320, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1324, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\37 u\28narrower\29, .\37 u\24\28narrower\29 {
     width: 58.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1326, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1330, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\36 u\28narrower\29, .\36 u\24\28narrower\29 {
     width: 50%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1332, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1336, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\35 u\28narrower\29, .\35 u\24\28narrower\29 {
     width: 41.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1338, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1342, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\34 u\28narrower\29, .\34 u\24\28narrower\29 {
     width: 33.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1344, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1348, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\33 u\28narrower\29, .\33 u\24\28narrower\29 {
     width: 25%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1350, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1354, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\32 u\28narrower\29, .\32 u\24\28narrower\29 {
     width: 16.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1356, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1360, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 u\28narrower\29, .\31 u\24\28narrower\29 {
     width: 8.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1362, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1366, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 2u\24\28narrower\29  + *,
   .\31 1u\24\28narrower\29  + *,
   .\31 0u\24\28narrower\29  + *,
@@ -13040,247 +13047,247 @@ body {
     clear: left;
   }
 
-  /* line 1377, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1381, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-11u\28narrower\29 {
     margin-left: 91.66667%;
   }
 
-  /* line 1381, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1385, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-10u\28narrower\29 {
     margin-left: 83.33333%;
   }
 
-  /* line 1385, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1389, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-9u\28narrower\29 {
     margin-left: 75%;
   }
 
-  /* line 1389, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1393, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-8u\28narrower\29 {
     margin-left: 66.66667%;
   }
 
-  /* line 1393, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1397, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-7u\28narrower\29 {
     margin-left: 58.33333%;
   }
 
-  /* line 1397, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1401, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-6u\28narrower\29 {
     margin-left: 50%;
   }
 
-  /* line 1401, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1405, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-5u\28narrower\29 {
     margin-left: 41.66667%;
   }
 
-  /* line 1405, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1409, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-4u\28narrower\29 {
     margin-left: 33.33333%;
   }
 
-  /* line 1409, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1413, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-3u\28narrower\29 {
     margin-left: 25%;
   }
 
-  /* line 1413, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1417, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-2u\28narrower\29 {
     margin-left: 16.66667%;
   }
 
-  /* line 1417, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1421, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-1u\28narrower\29 {
     margin-left: 8.33333%;
   }
 }
 @media screen and (max-width: 736px) {
-  /* line 1425, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1429, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row > * {
     padding: 20px 0 0 20px;
   }
 
-  /* line 1429, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1433, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row {
     margin: -20px 0 -1px -20px;
   }
 
-  /* line 1433, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1437, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform > * {
     padding: 20px 0 0 20px;
   }
 
-  /* line 1437, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1441, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform {
     margin: -20px 0 -1px -20px;
   }
 
-  /* line 1441, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1445, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 00\25  > * {
     padding: 40px 0 0 40px;
   }
 
-  /* line 1445, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1449, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 00\25 {
     margin: -40px 0 -1px -40px;
   }
 
-  /* line 1449, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1453, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 00\25  > * {
     padding: 40px 0 0 40px;
   }
 
-  /* line 1453, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1457, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 00\25 {
     margin: -40px 0 -1px -40px;
   }
 
-  /* line 1457, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1461, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\31 50\25  > * {
     padding: 30px 0 0 30px;
   }
 
-  /* line 1461, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1465, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\31 50\25 {
     margin: -30px 0 -1px -30px;
   }
 
-  /* line 1465, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1469, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\31 50\25  > * {
     padding: 30px 0 0 30px;
   }
 
-  /* line 1469, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1473, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\31 50\25 {
     margin: -30px 0 -1px -30px;
   }
 
-  /* line 1473, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1477, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\35 0\25  > * {
     padding: 10px 0 0 10px;
   }
 
-  /* line 1477, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1481, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\35 0\25 {
     margin: -10px 0 -1px -10px;
   }
 
-  /* line 1481, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1485, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\35 0\25  > * {
     padding: 10px 0 0 10px;
   }
 
-  /* line 1485, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1489, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\35 0\25 {
     margin: -10px 0 -1px -10px;
   }
 
-  /* line 1489, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1493, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 5\25  > * {
     padding: 5px 0 0 5px;
   }
 
-  /* line 1493, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1497, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.\32 5\25 {
     margin: -5px 0 -1px -5px;
   }
 
-  /* line 1497, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1501, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 5\25  > * {
     padding: 5px 0 0 5px;
   }
 
-  /* line 1501, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1505, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row.uniform.\32 5\25 {
     margin: -5px 0 -1px -5px;
   }
 
-  /* line 1505, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1509, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 2u\28mobile\29, .\31 2u\24\28mobile\29 {
     width: 100%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1511, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1515, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 1u\28mobile\29, .\31 1u\24\28mobile\29 {
     width: 91.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1517, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1521, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 0u\28mobile\29, .\31 0u\24\28mobile\29 {
     width: 83.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1523, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1527, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\39 u\28mobile\29, .\39 u\24\28mobile\29 {
     width: 75%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1529, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1533, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\38 u\28mobile\29, .\38 u\24\28mobile\29 {
     width: 66.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1535, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1539, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\37 u\28mobile\29, .\37 u\24\28mobile\29 {
     width: 58.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1541, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1545, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\36 u\28mobile\29, .\36 u\24\28mobile\29 {
     width: 50%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1547, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1551, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\35 u\28mobile\29, .\35 u\24\28mobile\29 {
     width: 41.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1553, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1557, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\34 u\28mobile\29, .\34 u\24\28mobile\29 {
     width: 33.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1559, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1563, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\33 u\28mobile\29, .\33 u\24\28mobile\29 {
     width: 25%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1565, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1569, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\32 u\28mobile\29, .\32 u\24\28mobile\29 {
     width: 16.6666666667%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1571, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1575, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 u\28mobile\29, .\31 u\24\28mobile\29 {
     width: 8.3333333333%;
     clear: none;
     margin-left: 0;
   }
 
-  /* line 1577, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1581, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\31 2u\24\28mobile\29  + *,
   .\31 1u\24\28mobile\29  + *,
   .\31 0u\24\28mobile\29  + *,
@@ -13296,63 +13303,63 @@ body {
     clear: left;
   }
 
-  /* line 1592, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1596, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-11u\28mobile\29 {
     margin-left: 91.66667%;
   }
 
-  /* line 1596, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1600, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-10u\28mobile\29 {
     margin-left: 83.33333%;
   }
 
-  /* line 1600, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1604, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-9u\28mobile\29 {
     margin-left: 75%;
   }
 
-  /* line 1604, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1608, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-8u\28mobile\29 {
     margin-left: 66.66667%;
   }
 
-  /* line 1608, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1612, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-7u\28mobile\29 {
     margin-left: 58.33333%;
   }
 
-  /* line 1612, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1616, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-6u\28mobile\29 {
     margin-left: 50%;
   }
 
-  /* line 1616, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1620, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-5u\28mobile\29 {
     margin-left: 41.66667%;
   }
 
-  /* line 1620, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1624, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-4u\28mobile\29 {
     margin-left: 33.33333%;
   }
 
-  /* line 1624, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1628, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-3u\28mobile\29 {
     margin-left: 25%;
   }
 
-  /* line 1628, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1632, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-2u\28mobile\29 {
     margin-left: 16.66667%;
   }
 
-  /* line 1632, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 1636, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .\-1u\28mobile\29 {
     margin-left: 8.33333%;
   }
 }
 /* Basic */
-/* line 1640, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1644, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 body {
   background: #f0f4f4;
   color: #5b5b5b;
@@ -13362,7 +13369,7 @@ body {
   font-weight: 300;
 }
 
-/* line 1649, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1653, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 body.is-loading *, body.is-loading *:after, body.is-loading *:before {
   -webkit-transition: none !important;
   transition: none !important;
@@ -13370,61 +13377,62 @@ body.is-loading *, body.is-loading *:after, body.is-loading *:before {
   animation: none !important;
 }
 
-/* line 1660, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1664, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 input, textarea, select {
   font-size: 15pt;
-  line-height: 1.85em;
+  /*line-height: 1.85em;*/
+  line-height: 1em;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
 }
 
-/* line 1667, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1672, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #483949;
   line-height: 1.25em;
 }
 
-/* line 1673, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1678, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
   text-decoration: none;
   border-bottom-color: transparent;
 }
 
-/* line 1679, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1684, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong {
   font-weight: 600;
 }
 
-/* line 1683, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1688, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 h2 {
   font-size: 2.85em;
 }
 
-/* line 1687, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1692, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 h3 {
   font-size: 1.25em;
 }
 
-/* line 1691, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1696, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 h4 {
   font-size: 1em;
   margin: 0 0 0.25em 0;
 }
 
-/* line 1696, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1701, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 strong, b {
   font-weight: 400;
   color: #483949;
 }
 
-/* line 1701, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1706, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 em, i {
   font-style: italic;
 }
 
-/* line 1705, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1710, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 a {
   color: inherit;
   border-bottom: solid 1px rgba(128, 128, 128, 0.15);
@@ -13433,50 +13441,50 @@ a {
   transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 }
 
-/* line 1715, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1720, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 a:hover {
   color: #ef8376;
   border-bottom-color: transparent;
   background-color: transparent;
 }
 
-/* line 1721, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1726, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 sub {
   position: relative;
   top: 0.5em;
   font-size: 0.8em;
 }
 
-/* line 1727, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1732, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 sup {
   position: relative;
   top: -0.5em;
   font-size: 0.8em;
 }
 
-/* line 1733, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1738, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 blockquote {
   border-left: solid 0.5em #ddd;
   padding: 1em 0 1em 2em;
   font-style: italic;
 }
 
-/* line 1739, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1744, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 p, ul, ol, dl, table {
   margin-bottom: 1em;
 }
 
-/* line 1743, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1748, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 p {
   text-align: justify;
 }
 
-/* line 1747, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1752, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 br.clear {
   clear: both;
 }
 
-/* line 1751, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1756, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 hr {
   position: relative;
   display: block;
@@ -13488,7 +13496,7 @@ hr {
   border-bottom: solid 1px rgba(128, 128, 128, 0.2);
 }
 
-/* line 1762, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1767, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 hr:before, hr:after {
   content: '';
   position: absolute;
@@ -13499,49 +13507,49 @@ hr:before, hr:after {
   background: rgba(128, 128, 128, 0.2);
 }
 
-/* line 1772, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1777, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 hr:before {
   left: -1px;
 }
 
-/* line 1776, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1781, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 hr:after {
   right: -1px;
 }
 
-/* line 1780, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1785, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .timestamp {
   color: rgba(128, 128, 128, 0.75);
   font-size: 0.8em;
 }
 
 /* Sections/Article */
-/* line 1787, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1792, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 section, article {
   margin-bottom: 3em;
 }
 
-/* line 1791, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1796, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 section > :last-child, section:last-child, article > :last-child, article:last-child {
   margin-bottom: 0;
 }
 
-/* line 1795, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1800, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 section.special > header, section.special > footer, article.special > header, article.special > footer {
   text-align: center;
 }
 
-/* line 1799, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1804, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .row > section, .row > article {
   margin-bottom: 0;
 }
 
-/* line 1803, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1808, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 header {
   margin: 0 0 1em 0;
 }
 
-/* line 1807, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1812, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 header > p {
   display: block;
   font-size: 1.5em;
@@ -13550,13 +13558,13 @@ header > p {
   text-align: inherit;
 }
 
-/* line 1815, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1820, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 footer {
   margin: 2.5em 0 0 0;
 }
 
 /* Image */
-/* line 1821, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1826, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .image {
   position: relative;
   display: inline-block;
@@ -13564,19 +13572,19 @@ footer {
   outline: 0;
 }
 
-/* line 1828, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1833, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .image img {
   display: block;
   width: 100%;
 }
 
-/* line 1833, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1838, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .image.fit {
   display: block;
   width: 100%;
 }
 
-/* line 1838, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1843, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .image.featured {
   display: block;
   width: 100%;
@@ -13584,83 +13592,83 @@ footer {
   margin: 0;
 }
 
-/* line 1845, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1850, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .image.left {
   float: left;
   margin: 0 2em 2em 0;
 }
 
-/* line 1850, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1855, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .image.centered {
   display: block;
   margin: 0 0 2em 0;
 }
 
-/* line 1855, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1860, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .image.centered img {
   margin: 0 auto;
   width: auto;
 }
 
 /* List */
-/* line 1862, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1867, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.default {
   list-style: disc;
   padding-left: 1em;
 }
 
-/* line 1867, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1872, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.default li {
   padding-left: 0.5em;
 }
 
-/* line 1871, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1876, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.actions {
   margin: 3em 0 0 0;
 }
 
-/* line 1875, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1880, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 form ul.actions {
   margin-top: 0;
 }
 
-/* line 1879, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1884, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.actions li {
   display: inline-block;
   margin: 0 0.75em 0 0.75em;
 }
 
-/* line 1884, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1889, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.actions li:first-child {
   margin-left: 0;
 }
 
-/* line 1888, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1893, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.actions li:last-child {
   margin-right: 0;
 }
 
-/* line 1892, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1897, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.divided li {
   border-top: solid 1px rgba(128, 128, 128, 0.2);
   padding-top: 1.5em;
   margin-top: 1.5em;
 }
 
-/* line 1898, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1903, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.divided li:first-child {
   border-top: 0;
   padding-top: 0;
   margin-top: 0;
 }
 
-/* line 1904, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1909, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.menu {
   height: 1em;
   line-height: 1em;
 }
 
-/* line 1909, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1914, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.menu li {
   display: inline-block;
   border-left: solid 1px rgba(128, 128, 128, 0.2);
@@ -13668,14 +13676,14 @@ ul.menu li {
   margin-left: 1.25em;
 }
 
-/* line 1916, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1921, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.menu li:first-child {
   border-left: 0;
   padding-left: 0;
   margin-left: 0;
 }
 
-/* line 1922, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1927, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.icons {
   position: relative;
   background: rgba(128, 128, 128, 0.05);
@@ -13686,12 +13694,12 @@ ul.icons {
   cursor: default;
 }
 
-/* line 1932, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1937, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.icons li {
   display: inline-block;
 }
 
-/* line 1936, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1941, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.icons li a {
   display: inline-block;
   background: none;
@@ -13704,24 +13712,24 @@ ul.icons li a {
   color: inherit;
 }
 
-/* line 1948, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1953, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ul.icons li a:hover {
   color: #ef8376;
 }
 
-/* line 1952, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1957, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ol.default {
   list-style: decimal;
   padding-left: 1.25em;
 }
 
-/* line 1957, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1962, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 ol.default li {
   padding-left: 0.25em;
 }
 
 /* Form */
-/* line 1963, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1968, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 form label {
   display: block;
   font-weight: 400;
@@ -13729,7 +13737,7 @@ form label {
   margin: 0 0 1em 0;
 }
 
-/* line 1970, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1975, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
@@ -13747,7 +13755,7 @@ form textarea {
   transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 }
 
-/* line 1989, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 1994, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 form input[type="text"]:focus,
 form input[type="email"]:focus,
 form input[type="password"]:focus,
@@ -13757,7 +13765,7 @@ form textarea:focus {
   border-color: #df7366;
 }
 
-/* line 1998, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2003, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 form input[type="text"],
 form input[type="email"],
 form input[type="password"],
@@ -13765,91 +13773,91 @@ form select {
   line-height: 1em;
 }
 
-/* line 2005, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2010, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 form textarea {
   min-height: 9em;
 }
 
-/* line 2009, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2014, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 form .formerize-placeholder {
   color: #555 !important;
 }
 
-/* line 2013, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2018, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 form ::-webkit-input-placeholder {
   color: #555 !important;
 }
 
-/* line 2017, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2022, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 form :-moz-placeholder {
   color: #555 !important;
 }
 
-/* line 2021, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2026, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 form ::-moz-placeholder {
   color: #555 !important;
 }
 
-/* line 2025, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2030, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 form :-ms-input-placeholder {
   color: #555 !important;
 }
 
-/* line 2029, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2034, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 form ::-moz-focus-inner {
   border: 0;
 }
 
 /* Table */
-/* line 2035, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2040, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 table {
   width: 100%;
 }
 
-/* line 2039, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2044, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 table.default {
   width: 100%;
 }
 
-/* line 2043, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2048, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 table.default tbody tr {
   border-top: solid 1px #e5e5e5;
 }
 
-/* line 2047, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2052, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 table.default tbody tr:first-child {
   border-top: 0;
 }
 
-/* line 2051, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2056, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 table.default tbody tr:nth-child(2n+1) {
   background: #fafafa;
 }
 
-/* line 2055, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2060, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 table.default td {
   padding: 0.5em 1em 0.5em 1em;
 }
 
-/* line 2059, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2064, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 table.default th {
   text-align: left;
   font-weight: 400;
   padding: 0.5em 1em 0.5em 1em;
 }
 
-/* line 2065, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2070, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 table.default thead {
   border-bottom: solid 2px #e5e5e5;
 }
 
-/* line 2069, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2074, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 table.default tfoot {
   border-top: solid 2px #e5e5e5;
 }
 
 /* Button */
-/* line 2075, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2080, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
@@ -13871,7 +13879,7 @@ button,
   transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 }
 
-/* line 2098, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2103, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 input[type="button"]:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
@@ -13881,7 +13889,7 @@ button:hover,
   background: #ef8376;
 }
 
-/* line 2107, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2112, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 input[type="button"].alt,
 input[type="submit"].alt,
 input[type="reset"].alt,
@@ -13890,7 +13898,7 @@ button.alt,
   background: #2B252C;
 }
 
-/* line 2115, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2120, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 input[type="button"].alt:hover,
 input[type="submit"].alt:hover,
 input[type="reset"].alt:hover,
@@ -13900,23 +13908,23 @@ button.alt:hover,
 }
 
 /* Post */
-/* line 2125, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2130, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .post.stub {
   text-align: center;
 }
 
-/* line 2129, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2134, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .post.stub header {
   margin: 0;
 }
 
 /* Icons */
-/* line 2135, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2140, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .icon {
   text-decoration: none;
 }
 
-/* line 2139, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2144, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .icon:before {
   display: inline-block;
   font-family: FontAwesome;
@@ -13929,12 +13937,12 @@ button.alt:hover,
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 2151, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2156, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .icon > .label {
   display: none;
 }
 
-/* line 2155, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2160, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .icon.circled {
   position: relative;
   display: inline-block;
@@ -13948,25 +13956,25 @@ button.alt:hover,
   font-size: 1.25em;
 }
 
-/* line 2168, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2173, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 header .icon.circled {
   margin: 0 0 2em 0;
 }
 
 /* Wrapper */
-/* line 2174, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2179, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .wrapper {
   background: #fff;
   margin: 0 0 2em 0;
   padding: 6em 0 6em 0;
 }
 
-/* line 2180, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2185, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .wrapper.style2 {
   padding-top: 0;
 }
 
-/* line 2185, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2190, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 body.homepage #header, body.no-sidebar #header {
   position: relative;
   background-image: url("../../assets/headbg.jpg");
@@ -13979,7 +13987,7 @@ body.homepage #header, body.no-sidebar #header {
   cursor: default;
 }
 
-/* line 2200, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2205, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #header:before {
   content: '';
   display: inline-block;
@@ -13987,7 +13995,7 @@ body.homepage #header, body.no-sidebar #header {
   height: 100%;
 }
 
-/* line 2207, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2212, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #header .inner {
   position: relative;
   z-index: 1;
@@ -13996,30 +14004,30 @@ body.homepage #header, body.no-sidebar #header {
   vertical-align: middle;
 }
 
-/* line 2215, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2220, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #header header {
   display: inline-block;
 }
 
-/* line 2219, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2224, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #header header > p {
   font-size: 1.25em;
   margin: 0;
 }
 
-/* line 2224, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2229, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #header h1 {
   color: #fff;
   font-size: 3em;
   line-height: 1em;
 }
 
-/* line 2230, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2235, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #header h1 a {
   color: inherit;
 }
 
-/* line 2234, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2239, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #header .button {
   display: inline-block;
   border-radius: 100%;
@@ -14031,7 +14039,7 @@ body.homepage #header, body.no-sidebar #header {
   padding: 0;
 }
 
-/* line 2246, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2251, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #header hr {
   top: 1.5em;
   margin-bottom: 3em;
@@ -14039,28 +14047,28 @@ body.homepage #header, body.no-sidebar #header {
   box-shadow: inset 0 1px 0 0 rgba(192, 192, 192, 0.35);
 }
 
-/* line 2253, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2258, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #header hr:before, #header hr:after {
   background: rgba(192, 192, 192, 0.35);
 }
 
-/* line 2257, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2262, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #header footer {
   margin: 1em 0 0 0;
 }
 
-/* line 2261, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2266, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 body.homepage #header {
   height: 100vh;
   min-height: 40em;
 }
 
-/* line 2266, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2271, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 body.homepage #header h1 {
   font-size: 4em;
 }
 
-/* line 2270, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2275, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 body.homepage #header:after {
   content: '';
   /*background: #1C0920;*/
@@ -14081,13 +14089,13 @@ body.homepage #header:after {
   transition-delay: 0.5s;
 }
 
-/* line 2293, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2298, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 body.homepage.is-loading #header:after {
   opacity: 1;
 }
 
 /* Nav */
-/* line 2299, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2304, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav {
   position: absolute;
   top: 0;
@@ -14099,7 +14107,7 @@ body.homepage.is-loading #header:after {
   overflow: hidden;
 }
 
-/* line 2310, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2315, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav > ul {
   line-height: 0px;
   position: relative;
@@ -14110,7 +14118,7 @@ body.homepage.is-loading #header:after {
   border-right: solid 1px rgba(192, 192, 192, 0.35);
 }
 
-/* line 2320, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2325, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav > ul:before, #nav > ul:after {
   content: '';
   display: block;
@@ -14123,19 +14131,19 @@ body.homepage.is-loading #header:after {
   border-bottom: solid 1px rgba(192, 192, 192, 0.35);
 }
 
-/* line 2332, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2337, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav > ul:before {
   left: 100%;
   margin-left: 1px;
 }
 
-/* line 2337, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2342, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav > ul:after {
   right: 100%;
   margin-right: 1px;
 }
 
-/* line 2342, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2347, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav > ul > li {
   display: inline-block;
   margin: -9px 0.5em 0 0.5em;
@@ -14146,17 +14154,17 @@ body.homepage.is-loading #header:after {
   transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 }
 
-/* line 2354, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2359, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav > ul > li.active {
   /*border-color: rgba(192, 192, 192, 0.35);*/
 }
 
-/* line 2357, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2362, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav > ul > li.active a {
   font-weight: bold;
 }
 
-/* line 2360, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2365, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav > ul > li > a, #nav > ul > li > span {
   display: block;
   color: inherit;
@@ -14166,22 +14174,22 @@ body.homepage.is-loading #header:after {
   outline: 0;
 }
 
-/* line 2368, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2373, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav > ul > li > ul {
   display: none;
 }
 
-/* line 2371, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2376, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav > ul > li > a {
   color: black;
 }
 
-/* line 2374, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2379, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav > ul > li > a > i {
   color: #696969;
 }
 
-/* line 2377, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2382, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #nav > ul > li > a:hover {
   /*color:  #C0C0C0;*/
   color: #ffffff;
@@ -14190,7 +14198,7 @@ body.homepage.is-loading #header:after {
   cursor: hand;
 }
 
-/* line 2385, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2390, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .dropotron {
   background: rgba(255, 255, 255, 0.975);
   padding: 1em 1.25em 1em 1.25em;
@@ -14203,23 +14211,23 @@ body.homepage.is-loading #header:after {
   margin-top: -1em;
 }
 
-/* line 2397, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2402, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .dropotron li {
   border-top: solid 1px rgba(128, 128, 128, 0.2);
   color: #5b5b5b;
 }
 
-/* line 2402, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2407, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .dropotron li:first-child {
   border-top: 0;
 }
 
-/* line 2406, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2411, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .dropotron li:hover {
   color: #ef8376;
 }
 
-/* line 2410, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2415, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .dropotron li a, .dropotron li span {
   display: block;
   border: 0;
@@ -14228,13 +14236,13 @@ body.homepage.is-loading #header:after {
   transition: color 0.35s ease-in-out;
 }
 
-/* line 2420, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2425, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .dropotron.level-0 {
   margin-top: 2em;
   font-size: 0.9em;
 }
 
-/* line 2425, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2430, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .dropotron.level-0:before {
   content: '';
   position: absolute;
@@ -14247,7 +14255,7 @@ body.homepage.is-loading #header:after {
 }
 
 /* Banner */
-/* line 2438, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2443, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #banner {
   background: #fff;
   text-align: center;
@@ -14255,53 +14263,54 @@ body.homepage.is-loading #header:after {
   margin-bottom: 0;
 }
 
-/* line 2445, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2450, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #banner header > p {
   margin-bottom: 0;
 }
 
 /* Content */
-/* line 2451, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2456, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #content > hr {
   top: 3em;
   margin-bottom: 6em;
 }
 
-/* line 2456, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2461, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #content > section {
   margin-bottom: 0;
 }
 
 /* Sidebar */
-/* line 2462, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2467, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #sidebar > hr {
   top: 3em;
   margin-bottom: 6em;
 }
 
-/* line 2467, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2472, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #sidebar > hr.first {
   display: none;
 }
 
-/* line 2471, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2476, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #sidebar > section {
   margin-bottom: 0;
 }
 
 /* Main */
-/* line 2477, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2482, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #main {
   margin-bottom: 0;
+  text-align: center;
 }
 
-/* line 2481, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2487, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #main section:first-of-type {
   padding-top: 2em;
 }
 
 /* Footer */
-/* line 2487, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2493, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #footer {
   position: relative;
   overflow: hidden;
@@ -14310,35 +14319,35 @@ body.homepage.is-loading #header:after {
   color: #fff;
 }
 
-/* line 2495, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2501, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #footer .icon.circled {
   background: #fff;
   color: #2b252c;
 }
 
-/* line 2500, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2506, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #footer header {
   text-align: center;
   cursor: default;
 }
 
-/* line 2505, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2511, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
   color: #fff;
 }
 
-/* line 2509, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2515, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #footer .contact {
   text-align: center;
 }
 
-/* line 2513, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2519, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #footer .contact p {
   text-align: center;
   margin: 0 0 3em 0;
 }
 
-/* line 2518, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2524, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #footer .copyright {
   text-align: center;
   color: rgba(128, 128, 128, 0.75);
@@ -14346,18 +14355,18 @@ body.homepage.is-loading #header:after {
   cursor: default;
 }
 
-/* line 2525, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2531, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #footer .copyright a {
   color: rgba(128, 128, 128, 0.75);
 }
 
-/* line 2529, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2535, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #footer .copyright a:hover {
   color: rgba(212, 212, 212, 0.85);
 }
 
 /* Carousel */
-/* line 2535, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2541, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel {
   position: relative;
   overflow: hidden;
@@ -14365,7 +14374,7 @@ body.homepage.is-loading #header:after {
   margin-bottom: 0;
 }
 
-/* line 2542, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2548, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel .forward, .carousel .backward {
   position: absolute;
   top: 50%;
@@ -14375,7 +14384,7 @@ body.homepage.is-loading #header:after {
   cursor: pointer;
 }
 
-/* line 2551, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2557, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel .forward:before, .carousel .backward:before {
   content: '';
   display: block;
@@ -14391,7 +14400,7 @@ body.homepage.is-loading #header:after {
   -webkit-backface-visibility: hidden;
 }
 
-/* line 2569, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2575, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel .forward:after, .carousel .backward:after {
   content: '';
   width: 3em;
@@ -14402,44 +14411,44 @@ body.homepage.is-loading #header:after {
   background: url("arrow.svg") no-repeat center center;
 }
 
-/* line 2579, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2585, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel .forward:hover:before, .carousel .backward:hover:before {
   background-color: rgba(239, 131, 118, 0.75);
 }
 
-/* line 2583, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2589, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel .forward {
   right: 0;
 }
 
-/* line 2587, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2593, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel .forward:before {
   right: -3em;
 }
 
-/* line 2591, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2597, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel .forward:after {
   right: -0.25em;
 }
 
-/* line 2595, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2601, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel .backward {
   left: 0;
 }
 
-/* line 2599, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2605, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel .backward:before {
   left: -3em;
 }
 
-/* line 2603, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2609, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel .backward:after {
   left: -0.25em;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
 
-/* line 2611, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2617, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel .reel {
   white-space: nowrap;
   position: relative;
@@ -14447,7 +14456,7 @@ body.homepage.is-loading #header:after {
   padding: 0 2em 0 2em;
 }
 
-/* line 2618, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2624, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel article {
   display: inline-block;
   width: 18em;
@@ -14461,12 +14470,12 @@ body.homepage.is-loading #header:after {
   transition: opacity 0.75s ease-in-out;
 }
 
-/* line 2633, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2641, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel article.loading {
   opacity: 0;
 }
 
-/* line 2637, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2645, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel article .image {
   position: relative;
   left: -1em;
@@ -14476,32 +14485,61 @@ body.homepage.is-loading #header:after {
   margin-bottom: 3em;
 }
 
-/* line 2646, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2654, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 .carousel article p {
+  text-align: center;
+}
+
+/* line 2658, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+.carousel .card {
+  display: inline-block;
+  width: 21em;
+  height: 33em;
+  text-align: center;
+  white-space: normal;
+  padding: 0 0.5em 3em 0.5em;
+  margin: 0 2em 0 0;
+  opacity: 1.0;
+  -webkit-transition: opacity 0.75s ease-in-out;
+  transition: opacity 0.75s ease-in-out;
+}
+
+/* line 2672, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+.carousel .card .image {
+  position: relative;
+  left: -0.5em;
+  top: 0;
+  width: auto;
+  margin-right: -1em;
+  /*margin-bottom: 3em;*/
+}
+
+/* line 2680, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+.carousel .card p {
   text-align: center;
 }
 
 /* Wide */
 @media screen and (max-width: 1680px) {
   /* Basic */
-  /* line 2656, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2689, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   body, input, textarea, select {
     font-size: 14pt;
     line-height: 1.75em;
   }
 
   /* Carousel */
-  /* line 2663, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2696, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .carousel {
     padding: 1.5em 0 1.5em 0;
   }
 
-  /* line 2667, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2700, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .carousel .reel {
     padding: 0 1.5em 0 1.5em;
   }
 
-  /* line 2671, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2704, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .carousel article {
     width: 18em;
     margin: 0 1.25em 0 0;
@@ -14510,40 +14548,40 @@ body.homepage.is-loading #header:after {
 /* Normal */
 @media screen and (max-width: 1280px) {
   /* Basic */
-  /* line 2684, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2717, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   body, input, textarea, select {
     font-size: 12pt;
     line-height: 1.5em;
   }
 
   /* Wrapper */
-  /* line 2691, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2724, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .wrapper {
     padding-left: 2em;
     padding-right: 2em;
   }
 
   /* Header */
-  /* line 2698, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2731, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #header {
     background-attachment: scroll;
   }
 
-  /* line 2702, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2735, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #header .inner {
     padding-left: 2em;
     padding-right: 2em;
   }
 
   /* Banner */
-  /* line 2709, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2742, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #banner {
     padding-left: 2em;
     padding-right: 2em;
   }
 
   /* Footer */
-  /* line 2716, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2749, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #footer {
     padding-left: 2em;
     padding-right: 2em;
@@ -14553,137 +14591,137 @@ body.homepage.is-loading #header:after {
 /* Narrower */
 @media screen and (max-width: 840px) {
   /* Basic */
-  /* line 2731, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2764, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   body, input, textarea, select {
     font-size: 13pt;
     line-height: 1.65em;
   }
 
-  /* line 2736, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2769, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .tweet {
     text-align: center;
   }
 
-  /* line 2740, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2773, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .timestamp {
     display: block;
     text-align: center;
   }
 
   /* Footer */
-  /* line 2747, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2780, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #footer {
     padding: 4em 2em 4em 2em;
   }
 
   /* Carousel */
-  /* line 2753, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2786, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .carousel {
     padding: 1.25em 0 1.25em 0;
   }
 
-  /* line 2757, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2790, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .carousel article {
     width: 18em;
     margin: 0 1em 0 0;
   }
 }
 /* Mobile */
-/* line 2766, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+/* line 2799, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
 #navPanel, #titleBar {
   display: none;
 }
 
 @media screen and (max-width: 736px) {
   /* Basic */
-  /* line 2774, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2807, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   html, body {
     overflow-x: hidden;
   }
 
-  /* line 2778, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2811, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   body, input, textarea, select {
     font-size: 12.5pt;
     line-height: 1.5em;
   }
 
-  /* line 2783, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2816, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   h2 {
     font-size: 1.75em;
   }
 
-  /* line 2787, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2820, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   h3 {
     font-size: 1.25em;
   }
 
-  /* line 2791, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2824, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   hr {
     top: 3em;
     margin-bottom: 6em;
   }
 
   /* Section/Article */
-  /* line 2798, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2831, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   section, article {
     margin-bottom: 2em;
   }
 
-  /* line 2802, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2835, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   section:last-child, article:last-child {
     margin-bottom: 0;
   }
 
-  /* line 2806, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2839, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .row > section, .row > article {
     margin-bottom: 2em;
   }
 
-  /* line 2810, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2843, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   header > p {
     font-size: 1.25em;
   }
 
   /* Image */
-  /* line 2816, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2849, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .image.featured {
     margin: 0 0 2em 0;
   }
 
-  /* line 2820, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2853, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .image.left {
     margin: 0 1em 1em 0;
   }
 
-  /* line 2824, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2857, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .image.centered {
     margin: 0 0 1em 0;
   }
 
   /* List */
-  /* line 2830, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2863, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   form ul.actions {
     margin-top: 0;
   }
 
-  /* line 2834, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2867, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   ul.actions li {
     display: block;
     margin: 0.75em 0 0 0;
   }
 
-  /* line 2839, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2872, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   ul.actions li:first-child {
     margin-top: 0;
   }
 
-  /* line 2843, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2876, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   ul.menu {
     height: auto;
     text-align: center;
   }
 
-  /* line 2848, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2881, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   ul.menu li {
     display: block;
     border: 0;
@@ -14691,24 +14729,24 @@ body.homepage.is-loading #header:after {
     margin: 0;
   }
 
-  /* line 2855, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2888, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   ul.menu li:first-child {
     padding-top: 0;
   }
 
-  /* line 2859, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2892, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   ul.icons {
     font-size: 1em;
     padding: 0.35em 0.5em 0.35em 0.5em;
   }
 
-  /* line 2864, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2897, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   ul.icons li a {
     width: 2.25em;
   }
 
   /* Button */
-  /* line 2870, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2903, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   input[type="button"],
   input[type="submit"],
   input[type="reset"],
@@ -14721,7 +14759,7 @@ body.homepage.is-loading #header:after {
   }
 
   /* Off-Canvas Navigation */
-  /* line 2883, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2916, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #page-wrapper {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -14732,7 +14770,7 @@ body.homepage.is-loading #header:after {
     padding-bottom: 1px;
   }
 
-  /* line 2895, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2928, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navButton {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -14749,7 +14787,7 @@ body.homepage.is-loading #header:after {
     z-index: 10001;
   }
 
-  /* line 2913, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2946, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navButton .toggle {
     position: absolute;
     left: 0;
@@ -14760,7 +14798,7 @@ body.homepage.is-loading #header:after {
     outline: 0;
   }
 
-  /* line 2923, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2956, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navButton .toggle:before {
     font-family: FontAwesome;
     text-decoration: none;
@@ -14785,7 +14823,7 @@ body.homepage.is-loading #header:after {
     border-radius: 0 0 0.35em 0.35em;
   }
 
-  /* line 2947, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 2980, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navPanel {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -14808,7 +14846,7 @@ body.homepage.is-loading #header:after {
     font-size: 1em;
   }
 
-  /* line 2973, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3006, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navPanel:before {
     content: '';
     display: block;
@@ -14821,7 +14859,7 @@ body.homepage.is-loading #header:after {
     background-size: 128px 128px;
   }
 
-  /* line 2985, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3018, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navPanel .link {
     position: relative;
     z-index: 1;
@@ -14833,178 +14871,183 @@ body.homepage.is-loading #header:after {
     border-top: dotted 1px rgba(255, 255, 255, 0.05);
   }
 
-  /* line 2996, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3029, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navPanel .link:first-child {
     border-top: 0;
   }
 
-  /* line 3000, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3033, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navPanel .link.depth-0 {
     color: #fff;
     font-weight: 600;
   }
 
-  /* line 3005, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3038, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navPanel .indent-1 {
     display: inline-block;
     width: 1em;
   }
 
-  /* line 3010, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3043, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navPanel .indent-2 {
     display: inline-block;
     width: 2em;
   }
 
-  /* line 3015, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3048, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navPanel .indent-3 {
     display: inline-block;
     width: 3em;
   }
 
-  /* line 3020, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3053, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navPanel .indent-4 {
     display: inline-block;
     width: 4em;
   }
 
-  /* line 3025, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3058, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navPanel .indent-5 {
     display: inline-block;
     width: 5em;
   }
 
-  /* line 3030, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3063, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #navPanel .depth-0 {
     color: #fff;
   }
 
-  /* line 3034, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3067, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   body.navPanel-visible #page-wrapper {
     -webkit-transform: translateY(50vh);
     transform: translateY(50vh);
   }
 
-  /* line 3041, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3074, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   body.navPanel-visible #navButton {
     -webkit-transform: translateY(50vh);
     transform: translateY(50vh);
   }
 
-  /* line 3048, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3081, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   body.navPanel-visible #navPanel {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
 
   /* Wrapper */
-  /* line 3057, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3090, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .wrapper {
     padding: 3em 1em 3em 1em;
   }
 
   /* Header */
-  /* line 3063, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3096, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #header {
     background-attachment: scroll;
     padding: 2.5em 0 0 0;
   }
 
-  /* line 3068, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3101, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #header .inner {
     padding-top: 1.5em;
     padding-left: 1em;
     padding-right: 1em;
   }
 
-  /* line 3074, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3107, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #header header > p {
     font-size: 1em;
   }
 
-  /* line 3078, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3111, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #header h1 {
     font-size: 1.75em;
   }
 
-  /* line 3082, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3115, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #header hr {
     top: 1em;
     margin-bottom: 2.5em;
   }
 
-  /* line 3087, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3120, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   body.homepage #header {
     min-height: 0;
     padding: 5.5em 0 5em 0;
     height: auto;
   }
 
-  /* line 3093, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3126, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   body.homepage #header:before {
     display: none;
   }
 
-  /* line 3097, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3130, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   body.homepage #header h1 {
     font-size: 2.5em;
   }
 
   /* Nav */
-  /* line 3103, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3136, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #nav {
     display: none;
   }
 
   /* Banner */
-  /* line 3109, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3142, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #banner {
     padding: 3em 2em 3em 2em;
   }
 
   /* Sidebar */
-  /* line 3115, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3148, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #sidebar > hr:first-of-type {
     display: block;
   }
 
   /* Main */
-  /* line 3121, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3154, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #main > header {
     text-align: center;
   }
 
   /* Footer */
-  /* line 3127, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3160, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   #footer {
     padding-left: 1em;
     padding-right: 1em;
   }
 
   /* Carousel */
-  /* line 3134, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3167, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .carousel {
     padding: 0.5em 0 0.5em 0;
   }
 
-  /* line 3138, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3171, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .carousel .reel {
     padding: 0 0.5em 0 0.5em;
   }
 
-  /* line 3142, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3175, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .carousel article {
     width: 14em;
     padding-bottom: 2em;
     margin: 0 0.5em 0 0;
   }
 
-  /* line 3148, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
+  /* line 3181, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/main.scss */
   .carousel article .image {
     margin-bottom: 2em;
   }
 }
-/*------------image------------*/
+/*----------------- body ---------------*/
+/* line 2, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+body div.content {
+  padding: 10px 10px 0 10px;
+}
+
 /*---------------- link ----------------*/
 /* line 6, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 a.btnaction {
@@ -15022,10 +15065,11 @@ a.btnaction:hover {
 .card-img-overlay:hover {
   background-color: black;
   opacity: 0.8;
+  color: #ECF0F1;
 }
 
 /*---------------File upload----------*/
-/* line 20, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 22, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 #drop_zone {
   display: block;
   border: 2px dashed #bbb;
@@ -15037,7 +15081,7 @@ a.btnaction:hover {
   width: 100%;
 }
 
-/* line 32, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 34, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 div.thumb {
   display: block;
   float: left;
@@ -15046,7 +15090,7 @@ div.thumb {
   padding: 10px;
 }
 
-/* line 39, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 41, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 div.thumb a {
   display: block;
   position: absolute;
@@ -15055,24 +15099,27 @@ div.thumb a {
   color: #db3236;
 }
 
-/* line 47, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 49, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 div.thumb img {
   height: 75px;
   border: 1px solid #000;
   margin: 10px 5px 0 0;
 }
 
-/* line 52, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
-div.thumb img.image-preview {
+/* line 55, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+div.image-preview img.image-preview {
   height: 275px;
+  padding: 8px;
+  background-color: #ffffff;
 }
 
 /*---------------Form input----------*/
-/* line 56, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 61, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 form div.fieldright {
   width: calc(80% - 22px);
   /*border: 1px solid #c9d0d6;
   border-radius: 3px;*/
+  border: none;
   font-size: 0.95em;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   outline: none;
@@ -15080,14 +15127,20 @@ form div.fieldright {
   overflow: hidden;
 }
 
-/* line 66, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 72, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+li.ckeditor div {
+  border: none;
+  box-shadow: none;
+}
+
+/* line 76, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 li.ckeditor div div.cke_inner {
   overflow: hidden;
   border: 1px solid #c9d0d6;
 }
 
 /*-------------------show------------------------*/
-/* line 72, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 82, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .image {
   position: relative;
   display: inline-block;
@@ -15095,73 +15148,104 @@ li.ckeditor div div.cke_inner {
   outline: 0;
 }
 
-/* line 79, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 89, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .image img {
   display: block;
   width: 100%;
 }
 
-/* line 83, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 93, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .image.fit {
   display: block;
   width: 100%;
 }
 
-/* line 87, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 97, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 a.image.fit {
   cursor: hand;
 }
 
-/* line 90, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 100, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .img-border-r8 {
   border-radius: 8%;
 }
 
+/* line 103, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+.image.fit.profile {
+  padding: 0 0 12px 0;
+}
+
+/* line 106, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+.image.fit.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
 /*-------------------show Article------------------------*/
-/* line 94, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 113, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .uni-blog-article {
   width: 100%;
+  margin-bottom: 1em;
 }
 
-/* line 97, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 117, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .uni-blog-article header {
   background-color: #ffca28;
+  margin-bottom: 0;
 }
 
-/* line 101, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
-.uni-blog-article header .wrapper {
+/* line 122, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+.uni-blog-article header div.content {
   padding: 20px  50px 0 50px;
 }
 
-/* line 104, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 126, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .uni-blog-article section {
   padding: 50px;
+  background-color: #FFFFFF;
 }
 
-/* line 107, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 130, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .uni-blog-article section {
   text-align: justify;
 }
 
-/* line 111, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 134, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .uni-blog-article .img.cover {
   height: 450px;
   background-color: #FFFFFF;
-  margin-top: 10px;
+  /*margin-top:10px;*/
   overflow: hidden;
   text-align: center;
   vertical-align: middle;
 }
 
-/* line 119, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 142, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .uni-blog-article .img.cover img {
   width: 100%;
   display: block;
 }
 
+/*-------------- Show Therapist ----------------*/
+/* line 147, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+#Therapist .card {
+  border: none;
+}
+
+/* line 150, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+.wrap_head {
+  padding: 0 3em;
+}
+
+/* line 154, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+.wrap_content {
+  padding: 0 3em;
+}
+
 /*-----------------------Toggle switch---------------*/
 /* The switch - the box around the slider */
-/* line 125, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 159, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch {
   position: relative;
   width: 90px;
@@ -15170,12 +15254,12 @@ a.image.fit {
   -ms-user-select: none;
 }
 
-/* line 129, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 163, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-checkbox {
   display: none;
 }
 
-/* line 132, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 166, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-label {
   display: block;
   overflow: hidden;
@@ -15184,7 +15268,7 @@ a.image.fit {
   border-radius: 20px;
 }
 
-/* line 136, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 170, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-inner {
   display: block;
   width: 200%;
@@ -15193,7 +15277,7 @@ a.image.fit {
   transition: margin 0.3s ease-in 0s;
 }
 
-/* line 140, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 174, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-inner:before, .onoffswitch-inner:after {
   display: block;
   float: left;
@@ -15208,7 +15292,7 @@ a.image.fit {
   box-sizing: border-box;
 }
 
-/* line 145, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 179, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-inner:before {
   content: "ON";
   padding-left: 10px;
@@ -15216,7 +15300,7 @@ a.image.fit {
   color: #FFFFFF;
 }
 
-/* line 150, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 184, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-inner:after {
   content: "OFF";
   padding-right: 10px;
@@ -15225,7 +15309,7 @@ a.image.fit {
   text-align: right;
 }
 
-/* line 156, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 190, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-switch {
   display: block;
   width: 18px;
@@ -15241,12 +15325,12 @@ a.image.fit {
   transition: all 0.3s ease-in 0s;
 }
 
-/* line 164, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 198, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
   margin-left: 0;
 }
 
-/* line 167, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 201, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
   right: 0px;
 }

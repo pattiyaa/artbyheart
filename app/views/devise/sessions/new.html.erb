@@ -12,7 +12,7 @@
   </div>
   <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
    
-<%= f.button :submit, "Log in" , class: 'btn-default'%>
+<%= f.button :submit, "Log in" , class: 'btn-default',data: { modal: true}%>
 <% end %>
 
 <%= render "devise/shared/links" %> 

@@ -3,7 +3,10 @@ class Post < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   # devise :database_authenticatable, 
   #        :recoverable, :rememberable, :trackable, :validatable
-  mount_uploader :cover_img, CloudinaryImageUploader
+  # mount_uploader :cover_img, CloudinaryImageUploader
+  attr_accessor :picture
+  has_one :cover_img ,:class_name => "Ckeditor::Picture", :as => "assetable"
+
   has_and_belongs_to_many :tags
   accepts_nested_attributes_for :tags, :allow_destroy => true
   has_one :post_category

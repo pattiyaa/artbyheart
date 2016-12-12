@@ -1,9 +1,9 @@
 <div class="card">
- <%= link_to '#' ,:class=>'image fit' do%>
-  <img class="card-img-top"  src=<%= post.cover_img%> alt="<%= post.title%>" />
+ <%= link_to post_path(post) ,:class=>'image fit mainscroll' do%>
+  <img class="card-img-top"  src=<%= post.cover_img.url%> alt="<%= post.title%>" />
   <%end%>
   <div class="card-block">
-    <h4 class="card-title"><%= post.title%> </h4>
+    <h4 class="card-title"><%= link_to post.title , post_path(post)%> </h4>
     <p class="card-text">
     <% if post.subtitle.size <= 120  %>
 		<p><%=post.subtitle%></p>

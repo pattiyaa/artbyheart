@@ -37778,12 +37778,8 @@ function handleFileSelect(evt) {
       // Closure to capture the file information.
       reader.onload = (function(theFile) {
         return function(e) {
-          // Render thumbnail.
-          // var span = document.createElement('span');
-          // span.innerHTML = ['<img class="thumb" src="', e.target.result,
-          //                   '" title="', escape(theFile.name), '"/>'].join('');
-          // document.getElementById('list').insertBefore(span, null);
           document.getElementById('image-preview').src =e.target.result;
+          $('#image-preview').addClass("image-preview");
         };
       })(f);
 

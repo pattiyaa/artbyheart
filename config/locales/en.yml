@@ -35,6 +35,7 @@ en:
   ntf_projects: "No projects were added yet."
   confirm_delete: "Are you sure you want to delete this?"
   msg_select: "Please select"
+  msg_suggest: "You might interest"
   profile: "Profile"
   portfolio: "Portfolio"
   article_continue: "Continue reading..."
