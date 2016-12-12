@@ -1,10 +1,13 @@
 <% if @posts.empty? %>
 <p><% t(:ntf_noposts)%></p>
 <% else %>
-<div class="card-deck-wrapper">
-<div class="card-deck">
+
+<!-- <div class="card-deck-wrapper">
+<div class="card-deck"> -->
+<div class="row">
 			<% @posts.each do |post| %>
-			<div class="card" >
+			<div class="col-xs-12 col-sm-6 col-md4">
+			<div class="card " >
 				<div class="card-header">
 					<div class="pull-right">
 							<%= link_to edit_admin_post_path(post) ,:class=>"btnaction" do %>
@@ -46,8 +49,9 @@
 					</div>
 				</div>
 			</div>
+			</div>
 			<%end%>
-
 </div>
-</div>
+<!-- </div>
+</div> -->
 <% end %>
