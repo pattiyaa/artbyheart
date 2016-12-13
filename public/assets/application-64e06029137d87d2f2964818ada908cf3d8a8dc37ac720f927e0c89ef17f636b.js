@@ -37728,14 +37728,11 @@ var Popover = function ($) {
     var modal_holder_selector, modal_selector;
     modal_holder_selector = '#modal-holder';
     modal_selector = '.modal';
-    // $(document).on('click', 'a[data-modal]', function() {
-    //   var location;
-    //   location = $(this).attr('href');
-    //   $.get(location, function(data) {
-    //     return $(modal_holder_selector).html(data).find(modal_selector).modal();
-    //   });
-    //   return false;
-    // });
+
+    $('button[data-dismiss]').click(function(){
+      
+      $('.modal-backdrop').remove();
+    });
     $('a[data-modal]').click(function(event){
       
       event.stopImmediatePropagation();
@@ -37747,8 +37744,10 @@ var Popover = function ($) {
       return false;
     });
     return $(document).on('ajax:success', 'form[data-modal]', function(event, data, status, xhr) {
+      debugger
       var url;
       url = xhr.getResponseHeader('Location');
+      debugger
       if (url) {
         $('.modal-backdrop').remove();
         window.location = url;
@@ -37758,6 +37757,7 @@ var Popover = function ($) {
       }
       return false;
     });
+
     
   });
 
@@ -38533,6 +38533,21 @@ $(document).ready(function() {
         centerPopup($(this).attr('href'), $(this).attr('data-width'), $(this).attr('data-height'));
         return false;
     });
+    return $(document).on('ajax:success', 'form#login-box', function(event, data, status, xhr) {
+      var url;
+      url = xhr.getResponseHeader('Location');
+      debugger
+
+      if (data.success){
+      //javascript that executes if everything goes o.k.
+        $('#sign_in').modal('hide')
+        $('#sign_in_button').hide()
+        $('#submit_comment').slideToggle(1000, "easeOutBack" )
+      }else{
+        alert('failure!')
+      }
+      return false;
+    });
 });
 
 function centerPopup(linkUrl, width, height) {
@@ -38544,6 +38559,15 @@ function centerPopup(linkUrl, width, height) {
             ',height=' + height + ',left=' + left + ',top=' + top;
     return window.open(url, 'authPopup', windowFeatures);
 }
+
+// $("form#login-box").bind "ajax:success", (e, data, status, xhr) ->
+//     if data.success
+//       //javascript that executes if everything goes o.k.
+//       $('#sign_in').modal('hide')
+//       $('#sign_in_button').hide()
+//       $('#submit_comment').slideToggle(1000, "easeOutBack" )
+//     else
+//       alert('failure!')
 ;
 /* skel.js v3.0.1 | (c) skel.io | MIT licensed */
 

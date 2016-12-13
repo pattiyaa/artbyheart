@@ -2,14 +2,20 @@ Rails.application.routes.draw do
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   devise_for :users, :controllers => { 
-    :omniauth_callbacks => "users/omniauth_callbacks",
     :registrations => "users/registrations",
+    :confirmations => "users/confirmations",
+    :omniauth_callbacks => "users/omniauth_callbacks",
     :sessions => "users/sessions",
-    :passwords =>"users/passwords"}
-  namespace :users do
-    resources :registrations
-  end
+    :passwords =>"users/passwords"}, :path_names=> { 
+      :sign_in => 'login',
+      :password => 'forgot', 
+      :confirmation => 'confirm', 
+      :unlock => 'unblock', 
+      :sign_up => 'register', 
+      :sign_out => 'signout'}
+ 
   # devise_scope :users do
+  #   get "/users/route" => "app/devise"
   #   get 'users/signup' => 'devise/registrations#new', :as => :new_user_registration 
   #   post 'users/signup' => 'devise/registrations#create', :as => :user_registration
   #   delete 'users/signup' => 'devise/registrations#destroy', :as => :destroy_user_registration

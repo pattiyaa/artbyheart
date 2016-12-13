@@ -1,6 +1,7 @@
 <% content_for :title, "Log in" %>
 <div class="center">
-<%= simple_form_for(resource, as: resource_name,url: session_path(resource_name), :html=> { class: 'signin' }) do |f| %>
+<!-- :remote => :true, :format => :json -->
+<%= simple_form_for(resource, as: resource_name,url: session_path(resource_name), :html=> { class: 'signin',:id => 'login-box' }) do |f| %>
  <div class="input-group">
     <span class="input-group-addon"><i class="fa fa-user fa-2"></i></span>
     <input id="email" type="text" class="form-control" name="email" placeholder="Email">
@@ -10,12 +11,11 @@
     <span class="input-group-addon"><i class="fa fa-lock fa-2"></i></span>
     <input id="password" type="password" class="form-control" name="password" placeholder="Password">
   </div>
-  <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
-   
-<%= f.button :submit, "Log in" , class: 'btn-default',data: { modal: true}%>
+  <div class="actions">
+    <%= f.submit "Log in" %>
+  </div>
 <% end %>
 
-<%= render "devise/shared/links" %> 
-
+<%= render "devise/shared/forget" %> 
 <%= render "devise/sessions/option" %>
 </div>

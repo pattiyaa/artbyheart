@@ -88,6 +88,24 @@ form.signin input[type=submit]{
 .carousel article{
     min-height: 550px;
 }
+/*----------------- Register-------------*/
+.register{
+    width: 80%;
+    margin:auto;
+}
+.register .form-actions{
+    margin: 20px 0;
+}
+.register .error{
+    color: red;
+}
+.register fieldset{
+    margin: 20px 0;
+}
+.register fieldset legend span{
+    font-size: 2em;
+    font-weight: bold;
+}
 /*-----------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 /*@import url("font-awesome.min.css");*/
@@ -1984,7 +2002,8 @@ form.signin input[type=submit]{
         width: 100%;
         border-radius: 0.5em;
         border: solid 1px #E5E5E5;
-        padding: 1em;
+        padding: 0.5em;
+        margin-bottom: 0.5em;
         -moz-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
         -webkit-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
         -ms-transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;

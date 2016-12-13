@@ -1,6 +1,7 @@
 <% if user_signed_in? && !current_user.blank? %>
 <div class="image fit profile">
-<%= image_tag current_user.image ,:class => "mini" %>
+
+<%= image_tag  current_user.image, :class=>"mini" %>
 </div>
 <span> <p><%= t(:hi)%>	<%=  current_user.name %></p></span>
 <%= link_to 'Sign out', destroy_user_session_path, :method => :destroy %>
