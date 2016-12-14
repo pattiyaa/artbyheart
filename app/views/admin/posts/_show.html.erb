@@ -22,5 +22,8 @@
 </header>
 <section >
   <%= @post.content.html_safe %>
+  <div class="pull-right"> 
+    <%= social_share_button_tag(@post.title,:image => @post.cover_img.url) %>
+  </div>
 </section>
 </article>

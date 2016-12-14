@@ -16,6 +16,7 @@
 //= require ckeditor/init
 //= require ckeditor/config
 //= require ckeditor/ckeditor
+//= require social-share-button
 //= require_tree .
 //= require cloudinary
 //= require cloudinary/processing 
