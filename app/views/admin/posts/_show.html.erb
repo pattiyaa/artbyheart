@@ -23,7 +23,9 @@
 <section >
   <%= @post.content.html_safe %>
   <div class="pull-right"> 
-    <%= social_share_button_tag(@post.title,:image => @post.cover_img.url) %>
+    <%= debugger%>
+    <%= FacebookOpenGraph.clear_cache(post_url(@post.id))%>
+    <%= social_share_button_tag(@post.title,:image => @post.cover_img.url,:desc =>@post.subtitle) %>
   </div>
 </section>
 </article>
