@@ -23,7 +23,7 @@
 <section >
   <%= @post.content.html_safe %>
   <div class="pull-right"> 
-    <%= social_share_button_tag(@post.title,:image => @post.cover_img.url,:url =>post_url(@post.id)) %>
+    <%= social_share_button_tag(@post.title,:url =>post_url(@post.id),:image => @post.cover_img.url,:desc =>@post.subtitle, via: @post.title,:'data-source'=>post_url(@post.id))  %>
   </div>
 </section>
 </article>
