@@ -78,4 +78,4 @@ gem "cloudinary"
 ## Gemfile for Rails 3+, Sinatra, and Merb
 gem 'will_paginate', '~> 3.1.0'
 # Social share button for content
-gem 'social-share-button' 
+gem 'social-share-button', '~> 0.8.5'

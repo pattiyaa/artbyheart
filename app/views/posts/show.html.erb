@@ -1,7 +1,2 @@
 <%= render  'admin/posts/show'%>
 <%= render 'posts/listtopthree', posts: @topposts %>
-<script>
-fbq('track', 'ViewContent', {
-	category: '<%=PostCategory.find(@post.post_category_id).name%>'
-});
-</script>

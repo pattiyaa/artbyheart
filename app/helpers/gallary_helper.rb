@@ -8,7 +8,6 @@ module GallaryHelper
       @uid = SecureRandom.hex(6)
     end
     def html
-
       content_tag(:div, slides, id: uid, class: @cssclass)
     end
     private

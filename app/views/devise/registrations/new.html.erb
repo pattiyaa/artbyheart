@@ -1,10 +1,7 @@
 <div class="wrapper">
 <div class="register">
 <h2>Sign up</h2>
-
 <%= semantic_form_for resource, as: resource_name, url: registration_path(resource_name) do |f| %>
-
-
   <div class="form-inputs">
     <%= f.input :email, required: true, autofocus: true %>
     <%= f.input :password, required: true, hint: ("#{@minimum_password_length} characters minimum" if @minimum_password_length) %>
@@ -19,6 +16,5 @@
     <%= f.submit label:  "Sign up" %>
   </div>
 <% end %>
-
 </div>
 </div>

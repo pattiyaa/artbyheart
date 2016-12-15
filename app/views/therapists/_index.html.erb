@@ -8,7 +8,7 @@
 		<div class="card-deck">
 			<% authors.each do |author| %>
 			 <div class="card">
-			    <%= link_to therapist_path(author), :class => "image featured mainpage"  do%>
+			    <%= link_to therapist_path(author), :class => "image featured"  do%>
 	            <img class="card-img-top img-fluid"  src=<%= author.avatarimg.url%> alt="<%= author.name%>" />
 	            <%end%>
 	            <div class="card-block">

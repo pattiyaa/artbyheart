@@ -27,3 +27,4 @@
   </div>
 </section>
 </article>
+<% content_for :fbmetatag, render(:template=> 'share/social/facebookmetatag' , locals: {title: @post.title, description: @post.subtitle.to_s, image_url: @post.cover_img.url, type:"website", url: post_url(@post.id) })  %>
