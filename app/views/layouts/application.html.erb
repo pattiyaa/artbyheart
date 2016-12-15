@@ -11,7 +11,13 @@
   </head>
 
   <body class="no-sidebar">
-    <div id="header" ></div>
+    <div id="header" >
+      <div class="inner">
+        <header>
+        <h1><a href="/" id="logo"><%= cl_image_tag("logo.png",height: "80", :alt => "Art by Heart logo", :class=>"img-responsive center-block" ) %></h1>
+        </a>
+      </div>
+    </div>
     <!-- Nav -->
     <%= render :template=> 'share/menu'%>
     <!-- body -->
