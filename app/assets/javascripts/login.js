@@ -6,7 +6,6 @@ $(document).ready(function() {
     return $(document).on('ajax:success', 'form#login-box', function(event, data, status, xhr) {
       var url;
       url = xhr.getResponseHeader('Location');
-      debugger
 
       if (data.success){
       //javascript that executes if everything goes o.k.

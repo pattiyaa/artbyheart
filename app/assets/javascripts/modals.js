@@ -19,10 +19,10 @@
       return false;
     });
     return $(document).on('ajax:success', 'form[data-modal]', function(event, data, status, xhr) {
-      debugger
+      
       var url;
       url = xhr.getResponseHeader('Location');
-      debugger
+      
       if (url) {
         $('.modal-backdrop').remove();
         window.location = url;
