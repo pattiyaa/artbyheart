@@ -1,5 +1,6 @@
 <div class="content">
 <%= render "admin/authors/profile" ,author:  @author %> 
+<hr/>
 <% if @author.projects.present? %>
 <%= render "projects" ,projects:  @author.projects %> 
 <%end%>

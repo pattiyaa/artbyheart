@@ -24,15 +24,21 @@ Rails.application.routes.draw do
   mount Ckeditor::Engine => '/ckeditor'
 
     # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-
- 
-  resources :posts, :only =>[:index, :show]
-  resources :articles, :only =>[:index, :show]
-  resources :howtos, :only =>[:index, :show]
-  resources :activities, :only =>[:index, :show]
-  resources :projects, :only =>[ :show]
-  resources :therapists, :only =>[:index, :show]
-  resources :home
-  get 'home/index'
+  scope "/:locale" do
+    resources :about do 
+      collection do
+        get 'map'
+      end
+    end
+    resources :posts, :only =>[:index, :show]
+    resources :articles, :only =>[:index, :show]
+    resources :howtos, :only =>[:index, :show]
+    resources :activities, :only =>[:index, :show]
+    resources :projects, :only =>[ :show]
+    resources :therapists, :only =>[:index, :show]
+    resources :home
+    get 'home/index'
+    root 'home#index'
+  end
   root 'home#index'
  end

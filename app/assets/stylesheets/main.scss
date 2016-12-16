@@ -2317,7 +2317,34 @@ form.signin input[type=submit]{
     body.homepage.is-loading #header:after {
         opacity: 1;
     }
+    /*Background*/
+    body.no-sidebar, body.homepage{
+        background-image: url("../images/bg.jpg");
+        background-repeat: repeat;
 
+    }
+    #header .locale ul{
+        margin: 10px;
+    }
+    #header .locale ul li:first-child {
+        border-left: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #header .locale ul li{
+        display: inline-block;
+        border-left: solid 1px;
+        padding-left: 1.25em;
+        margin-left: 1.25em;
+        color: #696969;
+    }
+    #header .locale ul li.active{
+        font-weight: bold;
+        color: black;
+    }
+     #header .locale ul li a:hover{
+        cursor: pointer;
+     }
     /* Nav */
     
     #nav {
@@ -2700,7 +2727,7 @@ form.signin input[type=submit]{
         text-align: center;
     }
     .carousel.mainscroll .card .card-block{
-        height: 12em;
+        height: 14em;
     }
 
     /* Wide */

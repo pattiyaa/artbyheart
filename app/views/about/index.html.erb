@@ -1,0 +1,37 @@
+<div class="container">
+	<section class="wrap_nobg">
+	 <h2 class="text-xs-center"><%=t(:about)%></h2>
+	 <div class="row">
+	 	 <div class="col-xs-12 col-sm-3 col-md-2" ></div>
+		 <div class="col-xs-12 col-sm-6 col-md-8">
+		 	<%=t(:about_detail).html_safe%>
+		 </div>
+	 </div>
+	</section>
+	<section class="wrap_nobg">
+		<h3><%=t(:contact)%></h3>
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4">
+				<div class="contactinfo">
+					<label><%=t(:address)%></label>
+					<p><%=t(:address_detail)%></p>
+					<label><%=t(:direction)%></label>
+					<%= link_to image_tag('google_maps.png', style:"height:50px"),map_about_index_path,data: { modal: true}%>
+					<label><%=t(:telephone)%></label>
+					<p>(+66)92 619 5298</p>
+					<label><%=t(:email)%></label>
+					<p></p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-8">
+				<div class="image fit">
+					<%= image_tag('map.jpg')%>
+				</div>		
+			</div>
+		</div>
+	</section>
+	<hr/>
+	<!-- <section class="wrap_nobg">
+		<h3><%=t(:msg_contactus)%></h3>
+	</section> -->
+</div>

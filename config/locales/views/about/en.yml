@@ -1,0 +1,36 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+en:
+  contact: "Contact us"
+  address: "Address"
+  address_detail: "566/103 Soi Kit Phanit, Maha Phruttharam, Bang Rak, Bangkok 10500, Thailand"
+  direction: "Direction"
+  telephone: "Telephone"
+  email: "Email"
+  msg_contactus: "We want to hear from you"
+  about: "About Art by Heart"
+  about_detail: |+
+          <br/>
+          <p>Art by Heart was found in mid of 2016 in the center of a big crazy city. Bangkok is where people are always in hurry and work like crazy. We want to slow down people life by introducing the truely beautiful of art.</p>
+          <p>Our artists are very welcome to be your guidance with our profession of crafting</p>
+
+          <p>With flaxible schedual, you can design your play time with many kind of art. 
+          Do it, enjoy it with your heart, release your self with art.</p>

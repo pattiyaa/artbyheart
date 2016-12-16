@@ -1,4 +1,4 @@
-<% content_for :title, "Log in" %>
+<% content_for :title, t('session.title') %>
 <div class="center">
 <!-- :remote => :true, :format => :json -->
 <%= simple_form_for(resource, as: resource_name,url: session_path(resource_name), :html=> { class: 'signin',:id => 'login-box' }) do |f| %>
@@ -12,7 +12,7 @@
     <input id="password" type="password" class="form-control" name="password" placeholder="Password">
   </div>
   <div class="actions">
-    <%= f.submit "Log in" %>
+    <%= f.submit t('session.signin') %>
   </div>
 <% end %>
 

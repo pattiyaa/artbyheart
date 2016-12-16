@@ -17,11 +17,15 @@ module ApplicationHelper
     link_to t(text, provider: provider), url, html_options
   end
   def nav_link(link_text, link_path) 
-  class_name = current_page?(link_path) ? 'active' : ''
-  content_tag(:li, :class => class_name) do
-    link_to link_text, link_path
+    class_name = current_page?(link_path) ? 'active' : ''
+    content_tag(:li, :class => class_name) do
+      link_to link_text, link_path
+    end
+   end
+  def locale_link(link_text, link_path,locale) 
+    class_name = I18n.locale == locale ? 'active' : '' 
+    content_tag(:li,link_to(link_text, link_path), :class => class_name)
   end
- end
  
 
   private

@@ -6,13 +6,12 @@
         <!-- Contact -->
         <section class="contact">
           <header>
-            <h3>Join us on</h3>
+            <h3><%=t('footer.joinus')%></h3>
           </header>
           <ul class="icons">
             <li><a target="_blank" href="https://www.facebook.com/ArtbyHeartBangkok/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-            <!-- <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li> -->
-            <li><a href="#" class="icon fa-map-marker "><span class="label">Pinterest</span></a></li>
+            <li><%= link_to "",map_about_index_path,data: { modal: true},:class=>"icon fa-map-marker " %>
+            </li>
           </ul>
         </section>
 
@@ -20,6 +19,7 @@
         <div class="copyright">
           <ul class="menu">
             <li>&copy; Art by Heart Bangkok. All rights reserved.</li>
+            <li>Developed by: <a href="mailto:pattiyaa@gmail.com">Pattiya Akaratawee</a></li>
           </ul>
         </div>
 
