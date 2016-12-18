@@ -7,6 +7,7 @@
 //= require jquery.dropotron.min
 //= require jquery.scrolly.min
 //= require jquery.onvisible.min
+//= require util
 (function($) {
 
 	var settings = {

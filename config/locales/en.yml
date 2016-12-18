@@ -29,6 +29,7 @@ en:
   menu_products: "Products"
   menu_aboutus: "About Us"
   signin: "Sign in"
+  signout: "Sign out"
   session:
     title: "Sign in to ArtbyHeartBangkok.com"
     option: "Sign up/ Sign in with"
@@ -38,6 +39,8 @@ en:
     register: "Sign up with email"
   hi: "Hi "
   motto: "listen to your heart, release yourself with art"
+  banner: Welcome to <strong>Art by Heart</strong> bangkok!
+  banner_sub: "We would like to introduce you to the art world"
   start: "Start"
   article:
     continue: "Continue reading..."
@@ -47,12 +50,16 @@ en:
     subtitle: "We are proud to present our team. Special guru who will guild you along the art road"
     profile: "Profile"
     portfolio: "Portfolio"
+    join: "Be a part of our team"
+    join_desc: "Share your knowledge and joinful of art"
   footer:
     joinus: "Join us on"
   ntf:
     noposts: "No articles were added yet."
     dropfile: "Drop files here"
     projects: "No projects were added yet."
+  msg:
+    login_err: "Username or Password is incorrect"
     
   confirm_delete: "Are you sure you want to delete this?"
   msg_select: "Please select"

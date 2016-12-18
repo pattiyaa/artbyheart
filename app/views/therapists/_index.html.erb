@@ -7,7 +7,7 @@
 	<div class="card-deck-wrapper">
 		<div class="card-deck">
 			<% authors.each do |author| %>
-			 <div class="card">
+			 <div class="card col-xs-12 col-sm-6 col-md-3">
 			    <%= link_to therapist_path(author), :class => "image featured"  do%>
 	            <img class="card-img-top img-fluid"  src=<%= author.avatarimg.url%> alt="<%= author.name%>" />
 	            <%end%>
@@ -20,6 +20,15 @@
 				</div>
 	          </div>
 	        <%end%>
+	         <div class="card col-xs-12 col-sm-6 col-md-3">
+			    <%= link_to "#", :class => "image featured"  do%>
+	            <img class="card-img-top img-fluid"  src="/images/artist.png" alt="be a part of our team" />
+	            <%end%>
+	            <div class="card-block">
+				    <strong class="card-text"><%= t('therapist.join')%></strong>
+				    <p class="card-text"><small class="text-muted"><%= t('therapist.join_desc')%></small></p>
+				</div>
+	          </div>
 	    </div>
 	</div>
 	</section>

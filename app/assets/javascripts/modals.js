@@ -1,3 +1,4 @@
+//= require login
 (function() {
   $(function() {
     var modal_holder_selector, modal_selector;

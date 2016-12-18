@@ -1,24 +1,9 @@
 class Users::SessionsController < Devise::SessionsController
    layout "modal"
-  #  def create
-    
-  #   super
-    
-  #   # resource = warden.authenticate!(:scope => resource_name, :recall => 'Users::Sessions#failure')
-  #   # sign_in_and_redirect(resource_name, resource)
-  # end
+   clear_respond_to
+    respond_to :json ,only: [:create]
+    respond_to :html,only: [:new,:destroy]
 
-  # def sign_in_and_redirect(resource_or_scope, resource=nil)
-  #   debugger
-  #   scope = Devise::Mapping.find_scope!(resource_or_scope)
-  #   resource ||= resource_or_scope
-  #   sign_in(scope, resource) unless warden.user(scope) == resource
-  #   return render :json => {:success => true}
-  # end
-
-  # def failure
-  #   return render :json => {:success => false, :errors => ["Login failed."]}
-  # end
 # before_action :configure_sign_in_params, only: [:create]
 
   # GET /resource/sign_in
@@ -27,16 +12,38 @@ class Users::SessionsController < Devise::SessionsController
   # end
 
   # POST /resource/sign_in
-  # def create
-  #   super
-  # end
+   def create
+   #   super
+    respond_to do |format|
+      format.html {
+
+        super
+      }
+      format.json {
+        resource = User.find_for_database_authentication(:email=>params[:email])
+        return invalid_login_attempt unless resource
+
+        if resource.valid_password?(params[:password])
+          sign_in("user", resource)
+          render :json=> {:success=>true}
+          return
+        end
+        invalid_login_attempt
+
+      }
+    end
+    end
 
   # DELETE /resource/sign_out
   # def destroy
   #   super
   # end
 
-  # protected
+  protected
+  def invalid_login_attempt
+    warden.custom_failure!
+    render :json=> {:success=>false, :msg=>t('msg.login_err')}, :status=>401
+  end
 
   # If you have extra params to permit, append them to the sanitizer.
   # def configure_sign_in_params

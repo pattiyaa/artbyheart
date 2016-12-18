@@ -171,6 +171,18 @@ cursor: hand;
 #Therapist .card{
     border: none;
 }
+#Therapist .card-deck-wrapper {
+    margin: 0 1em;
+
+}
+#Therapist .card-deck {
+  display: flex;
+  flex-flow: row wrap; 
+}
+#Therapist .card-deck .card {
+  display: block;
+  background-color:transparent;
+}
 .wrap_head{
     padding: 0 3em;
 
@@ -233,4 +245,7 @@ cursor: hand;
 }
 .contactinfo a{
     text-decoration: none;
+}
+.alert{
+    color: red;
 }

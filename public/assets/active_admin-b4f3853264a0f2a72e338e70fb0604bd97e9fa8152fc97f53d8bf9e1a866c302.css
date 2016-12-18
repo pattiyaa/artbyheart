@@ -14370,18 +14370,38 @@ a.image.fit {
 }
 
 /* line 174, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+#Therapist .card-deck-wrapper {
+  margin: 0 1em;
+}
+
+/* line 178, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+#Therapist .card-deck {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+}
+
+/* line 182, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+#Therapist .card-deck .card {
+  display: block;
+  background-color: transparent;
+}
+
+/* line 186, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .wrap_head {
   padding: 0 3em;
 }
 
-/* line 178, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 190, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .wrap_content {
   padding: 0 3em;
 }
 
 /*-----------------------Toggle switch---------------*/
 /* The switch - the box around the slider */
-/* line 183, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 195, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch {
   position: relative;
   width: 90px;
@@ -14390,12 +14410,12 @@ a.image.fit {
   -ms-user-select: none;
 }
 
-/* line 187, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 199, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-checkbox {
   display: none;
 }
 
-/* line 190, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 202, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-label {
   display: block;
   overflow: hidden;
@@ -14404,7 +14424,7 @@ a.image.fit {
   border-radius: 20px;
 }
 
-/* line 194, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 206, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-inner {
   display: block;
   width: 200%;
@@ -14413,7 +14433,7 @@ a.image.fit {
   transition: margin 0.3s ease-in 0s;
 }
 
-/* line 198, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 210, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-inner:before, .onoffswitch-inner:after {
   display: block;
   float: left;
@@ -14428,7 +14448,7 @@ a.image.fit {
   box-sizing: border-box;
 }
 
-/* line 203, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 215, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-inner:before {
   content: "ON";
   padding-left: 10px;
@@ -14436,7 +14456,7 @@ a.image.fit {
   color: #FFFFFF;
 }
 
-/* line 208, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 220, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-inner:after {
   content: "OFF";
   padding-right: 10px;
@@ -14445,7 +14465,7 @@ a.image.fit {
   text-align: right;
 }
 
-/* line 214, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 226, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-switch {
   display: block;
   width: 18px;
@@ -14461,24 +14481,29 @@ a.image.fit {
   transition: all 0.3s ease-in 0s;
 }
 
-/* line 222, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 234, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
   margin-left: 0;
 }
 
-/* line 225, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 237, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
   right: 0px;
 }
 
 /*--------------- information ----------------*/
-/* line 230, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 242, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .contactinfo label {
   width: 100%;
   font-weight: bold;
 }
 
-/* line 234, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+/* line 246, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
 .contactinfo a {
   text-decoration: none;
+}
+
+/* line 249, /Users/ToeyHom/Web/rubyonrails/artbyheartbkk/app/assets/stylesheets/share.scss */
+.alert {
+  color: red;
 }

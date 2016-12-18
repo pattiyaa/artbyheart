@@ -1,7 +1,9 @@
 <% content_for :title, t('session.title') %>
 <div class="center">
-<!-- :remote => :true, :format => :json -->
-<%= simple_form_for(resource, as: resource_name,url: session_path(resource_name), :html=> { class: 'signin',:id => 'login-box' }) do |f| %>
+<!-- <p class="notice"><%= notice %></p> -->
+<p class="alert"><%= alert %></p>
+<!-- :remote => :true, :'data-type' => :json -->
+<%= simple_form_for(resource, as: resource_name,url: session_path(resource_name), :html=> { class: 'signin',:id => 'login-box', :data => {:type => :json} },:remote => :true) do |f| %>
  <div class="input-group">
     <span class="input-group-addon"><i class="fa fa-user fa-2"></i></span>
     <input id="email" type="text" class="form-control" name="email" placeholder="Email">
@@ -19,3 +21,9 @@
 <%= render "devise/shared/forget" %> 
 <%= render "devise/sessions/option" %>
 </div>
+<script type="text/javascript">
+     $('.js-popup').click(function() {
+        centerPopup($(this).attr('href'), $(this).attr('data-width'), $(this).attr('data-height'));
+        return false;
+    });
+</script>
