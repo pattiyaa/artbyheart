@@ -45,6 +45,7 @@ index as: :block ,:class =>"card-deck" do |project|
 	end
 end
 controller do
+    before_action :set_locale_en
 	def updatepicture
 
 		@pics=[]

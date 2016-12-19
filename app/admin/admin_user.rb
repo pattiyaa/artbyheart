@@ -16,7 +16,9 @@ ActiveAdmin.register AdminUser do
   filter :current_sign_in_at
   filter :sign_in_count
   filter :created_at
-
+  controller do
+    before_action :set_locale_en
+  end
   form do |f|
     f.inputs "Admin Details" do
       f.input :email

@@ -14,7 +14,9 @@ permit_params :tag_id, :name,:Comments
 #   permitted << :other if params[:action] == 'create' && current_user.admin?
 #   permitted
 # end
-
+controller do
+    before_action :set_locale_en
+end
 
 
 end

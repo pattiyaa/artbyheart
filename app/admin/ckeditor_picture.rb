@@ -17,6 +17,7 @@ index do
   render 'index'
 end
 controller do
+	before_action :set_locale_en
 	alias_method :batch_action_ckeditor_pictures, :batch_action
 	def batch_action
 		params[:collection_selection]=params[:collection_selection].select{|s| s!="0"}

@@ -41,6 +41,7 @@ before_destroy do
 end
 
 controller do
+  before_action :set_locale_en
   def addPicture
       if params[:author][:picture].present?
         $pic = Ckeditor::Picture.new(data: params[:author][:picture])

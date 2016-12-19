@@ -10,6 +10,9 @@ class ApplicationController < ActionController::Base
   def default_url_options
     { locale: I18n.locale }
   end
+  def set_locale_en
+      I18n.locale = :en
+  end
   def respond_modal_with(*args, &blk)
    options = args.extract_options!
    options[:responder] = ModalResponder

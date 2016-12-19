@@ -32,7 +32,7 @@ after_update do
 end
 
 controller do
-
+  before_action :set_locale_en
   private 
   def addPicture
     
