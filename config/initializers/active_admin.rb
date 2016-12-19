@@ -221,10 +221,10 @@ ActiveAdmin.setup do |config|
       admin.build_menu  do |menu|
         menu.add label: "Live Website", url: "/", priority: 0
         menu.add id: 'setting', label:  proc{ I18n.t "setting" }
-        menu.add :label => "Languages" do |lang|
-          lang.add :label => "English",:url => proc { url_for(:locale => 'en') }, id: 'i18n-en', :priority => 1
-          lang.add :label => "Thai",:url => proc { url_for(:locale => 'th') }, id: 'i18n-th', :priority => 2
-        end
+        # menu.add :label => "Languages" do |lang|
+        #   lang.add :label => "English",:url => proc { url_for(:locale => 'en') }, id: 'i18n-en', :priority => 1
+        #   lang.add :label => "Thai",:url => proc { url_for(:locale => 'th') }, id: 'i18n-th', :priority => 2
+        # end
       end
     end
 
