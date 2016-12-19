@@ -23,7 +23,7 @@ th:
   menu_home: "หน้าแรก"
   menu_article: "บทความ"
   menu_howto: "ฮาว ทู"
-  menu_activities: "กิจกรรม"
+  menu_activities: "ผลงาน"
   menu_therapist: "ศิลปิน"
   menu_schedual: "ตารางเล่น"
   menu_products: "ผลิตภัณฑ์"
@@ -33,13 +33,13 @@ th:
   session:
     title: "ล๊อคอินเข้าสู่ ArtbyHeartBangkok.com"
     option: "ลงทะเบียน หรือ ล๊อคอินด้วย"
-    forgot: "ลืมระหัสผ่าน?"
+    forgot: "ลืมรหัสผ่าน?"
     signin: "เข้าใช้"
-    confirm: "ยังไมไ่ด้รับอีเมลยืนยัน?"
+    confirm: "ยังไม่ได้รับอีเมลยืนยัน?"
     register: "ลงทะเบียน ด้วยอีเมล"
   hi: "สวัสดี "
   motto: "ศิลปะสัมผัสได้...ด้วยหัวใจ"
-  banner: Welcome to <strong>Art by Heart</strong> bangkok!
+  banner: ยินดีต้อนรับเข้าสู่ <strong>Art by Heart</strong> bangkok!
   banner_sub: "พวกเราคือกลุ่มนักศิลปะบำบัด ติดตามตารางกิจกรรมและผลงานของเราได้ที่นี่ค่ะ"
   start: "เริ่ม"
   article:
