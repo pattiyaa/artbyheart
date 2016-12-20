@@ -29,7 +29,7 @@
 		mobile: '(max-width: 736px)'
 	});
 
-	$(function() {
+	$(document).on('turbolinks:load', function(){
 
 		var	$window = $(window),
 			$body = $('body');
@@ -63,22 +63,7 @@
 				noOpenerFade: true,
 				alignment: 'center'
 			});
-			// $("#nav ul li a").click(function ( e ) {
-				
-			// 	$("#nav li a.active").removeClass("active"); //Remove any "active" class  
-			// 	$(this).addClass("active"); //Add "active" class to selected tab  
-   // 				if($(this).context.text == 'Home'){
-   // 					$body.addClass('homepage');
-   // 				}else{
-   // 					$body.removeClass('homepage');
-   // 					$body.addClass('no-sidebar');
-   // 				};
-			// 	e.preventDefault();
-			// 	var href = $(this).attr('href');
-			// 	window.location.href = href;
-			// 	return true;
-   				
-			// });
+
 
 
 		// Scrolly links.

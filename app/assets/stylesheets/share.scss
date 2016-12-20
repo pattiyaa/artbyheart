@@ -11,6 +11,16 @@ a.btnaction:hover{
     color: grey;
 }
 /*---------------card----------*/
+.card-deck {
+    display: table;
+    width: 100%;
+    margin-bottom: 0.75rem;
+    table-layout: fixed;
+    border-spacing: 1.25rem 0;
+}
+.card-deck .card{
+    vertical-align: top;
+}
 .card-img-overlay:hover{
   background-color: black;
   opacity: 0.8;
