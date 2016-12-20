@@ -20,6 +20,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 th:
+  time:
+     formats:
+       default: "%d/%m/%Y"
+       short: "%b %d"
+       long: "%B %d, %Y"
   menu_home: "หน้าแรก"
   menu_article: "บทความ"
   menu_howto: "ฮาว ทู"
