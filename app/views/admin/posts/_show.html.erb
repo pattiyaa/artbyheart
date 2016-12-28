@@ -21,10 +21,17 @@
 </div> 
 </header>
 <section >
-  <%= @post.content.html_safe %>
-  <div class="pull-right"> 
-    <%= social_share_button_tag(@post.title,:url =>post_url(@post.id),:image => @post.cover_img.url,:desc =>@post.subtitle, via: @post.title,:'data-source'=>post_url(@post.id))  %>
+ <div class="row">
+    <div class="col-xs-12 col-sm-1 col-md-3"></div>
+    <div class="col-xs-12 col-sm-10 col-md-6">
+      <%= @post.content.html_safe %>
+      <div class="pull-right"> 
+        <%= social_share_button_tag(@post.title,:url =>post_url(@post.id),:image => @post.cover_img.url,:desc =>@post.subtitle, via: @post.title,:'data-source'=>post_url(@post.id))  %>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-1 col-md-3"></div>
   </div>
+  
 </section>
 </article>
 <% content_for :fbmetatag, render(:template=> 'share/social/facebookmetatag' , locals: {title: @post.title, description: @post.subtitle.to_s, image_url: @post.cover_img.url, type:"website", url: post_url(@post.id) })  %>
