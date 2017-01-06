@@ -11,6 +11,6 @@
     <p><%=  author.profile.present? ? author.profile.html_safe : ''%></p>
   </div>
   <div class="col-xs-12 col-sm-4 col-lg-4">
-    <div class="image fit"><img class="img-border-r8" src=<%=author.avatarimg.url%> ></div>
+    <div class="image fit"><img class="img-border-r8" src=<%=author.avatarimg.url if author.avatarimg.present? %> ></div>
   </div>
 </div>
