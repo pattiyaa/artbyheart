@@ -72,7 +72,7 @@ form do |f|
           f.input :picture ,:as =>"file",:image_preview => true,:image_selected => :cover_img,label: 'Cover photo'
       
       end
-      f.input :content, :as => :ckeditor,:class=>'fieldright', input_html: {:ckeditor => {height: 550, :toolbar => 'FULL'}}, class: "form-control"
+      f.input :content, :as => :ckeditor,:class=>'fieldright form-control', input_html: {:ckeditor => {height: 550, :toolbar => 'FULL'}}
     
       f.inputs 'Options' do
       f.input :tags, as: :check_boxes, :collection => Tag.all

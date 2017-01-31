@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  desctiption: MyString
+  slung: 
+  meta_description: MyString
+  meta_keyworlds: MyString
+  meta_title: MyString
+  start: 2017-01-31 19:07:34
+  finish: 2017-01-31 19:07:34
+  capacity: 1
+  teacher: one
+  available_on: 2017-01-31 19:07:34
+  discontinue_on: 2017-01-31 19:07:34
+  category: one
+  price: 9.99
+  cost: 9.99
+
+two:
+  title: MyString
+  desctiption: MyString
+  slung: 
+  meta_description: MyString
+  meta_keyworlds: MyString
+  meta_title: MyString
+  start: 2017-01-31 19:07:34
+  finish: 2017-01-31 19:07:34
+  capacity: 1
+  teacher: two
+  available_on: 2017-01-31 19:07:34
+  discontinue_on: 2017-01-31 19:07:34
+  category: two
+  price: 9.99
+  cost: 9.99

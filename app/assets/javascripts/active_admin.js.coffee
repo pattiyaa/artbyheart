@@ -9,3 +9,4 @@
 #= require admin/input/file_input
 #= require admin/input/filesupload_input
 #= require admin
+#= require flatpickr/dist/flatpickr.min

@@ -25,3 +25,4 @@
 //= require modals
 //= require main
 //= require social-share-button
+//= require flatpickr/dist/flatpickr.min

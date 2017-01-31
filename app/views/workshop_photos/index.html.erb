@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Workshop Photos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Workshop</th>
+      <th>Photo</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @workshop_photos.each do |workshop_photo| %>
+      <tr>
+        <td><%= workshop_photo.workshop %></td>
+        <td><%= workshop_photo.photo %></td>
+        <td><%= link_to 'Show', workshop_photo %></td>
+        <td><%= link_to 'Edit', edit_workshop_photo_path(workshop_photo) %></td>
+        <td><%= link_to 'Destroy', workshop_photo, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Workshop Photo', new_workshop_photo_path %>

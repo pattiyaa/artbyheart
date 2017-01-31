@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :workshop_photos
+  resources :workshops
   ActiveAdmin.routes(self)
   mount Ckeditor::Engine => '/ckeditor'
   devise_for :users, :controllers => { 

@@ -1,0 +1,79 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @workshop.title %>
+</p>
+
+<p>
+  <strong>Desctiption:</strong>
+  <%= @workshop.desctiption %>
+</p>
+
+<p>
+  <strong>Slung:</strong>
+  <%= @workshop.slung %>
+</p>
+
+<p>
+  <strong>Meta description:</strong>
+  <%= @workshop.meta_description %>
+</p>
+
+<p>
+  <strong>Meta keyworlds:</strong>
+  <%= @workshop.meta_keyworlds %>
+</p>
+
+<p>
+  <strong>Meta title:</strong>
+  <%= @workshop.meta_title %>
+</p>
+
+<p>
+  <strong>Start:</strong>
+  <%= @workshop.start %>
+</p>
+
+<p>
+  <strong>Finish:</strong>
+  <%= @workshop.finish %>
+</p>
+
+<p>
+  <strong>Capacity:</strong>
+  <%= @workshop.capacity %>
+</p>
+
+<p>
+  <strong>Teacher:</strong>
+  <%= @workshop.teacher %>
+</p>
+
+<p>
+  <strong>Available on:</strong>
+  <%= @workshop.available_on %>
+</p>
+
+<p>
+  <strong>Discontinue on:</strong>
+  <%= @workshop.discontinue_on %>
+</p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @workshop.category %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @workshop.price %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @workshop.cost %>
+</p>
+
+<%= link_to 'Edit', edit_workshop_path(@workshop) %> |
+<%= link_to 'Back', workshops_path %>

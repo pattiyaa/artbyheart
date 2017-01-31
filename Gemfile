@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
-
-
+gem "hashie"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
 # Use postgresql as the database for Active Record
@@ -18,6 +17,8 @@ gem 'omniauth-facebook'
 gem 'oauth2'
 gem 'omniauth-google-oauth2'
 
+# to manage package from bower
+gem 'bower'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -76,6 +77,8 @@ gem 'mini_magick'
 gem "cloudinary"
 
 ## Gemfile for Rails 3+, Sinatra, and Merb
-gem 'will_paginate', '~> 3.1.0'
+# gem 'will_paginate', '~> 3.1.0'
 # Social share button for content
 gem 'social-share-button', '~> 0.8.5'
+gem 'formtastic', '~> 3.0'
+gem 'date_picker'

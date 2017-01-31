@@ -69,6 +69,7 @@ th:
   confirm_delete: "Are you sure you want to delete this?"
   msg_select: "Please select"
   active_admin:
+    price: "ราคา"
     dashboard: Dashboard
     post: Posts
     therapist: Therapists
